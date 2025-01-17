@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@slack/socket-mode": "^2.0.3"
+  }
+}
