@@ -1,0 +1,486 @@
+syntax = "proto3";
+
+package Services;
+option go_package = "protos/services";
+
+service ChatService {
+  rpc UploadPreKey (UploadPreKeyRequest) returns (UploadPreKeyResponse) {}
+  rpc FetchPreKey (FetchPreKeyRequest) returns (FetchPreKeyResponse) {}
+  rpc UploadSignedPreKey (UploadSignedPreKeyRequest) returns (UploadSignedPreKeyResponse) {}
+  rpc FetchSignedPreKey (FetchSignedPreKeyRequest) returns (FetchSignedPreKeyResponse) {}
+  rpc FetchIdentityKey (FetchIdentityKeyRequest) returns (FetchIdentityKeyResponse) {}
+
+  rpc UploadMLSKeyPackage (UploadMLSKeyPackageRequest) returns (UploadMLSKeyPackageResponse) {}
+  rpc FetchMLSKeyPackage (FetchMLSKeyPackageRequest) returns (FetchMLSKeyPackageResponse) {}
+
+  rpc GetUser (GetUserRequest) returns (GetUserResponse) {}
+  rpc SetUser (SetUserRequest) returns (SetUserResponse) {}
+
+  rpc GetChatbot (GetChatbotRequest) returns (GetChatbotResponse) {}
+  rpc SetChatbot (SetChatbotRequest) returns (SetChatbotResponse) {}
+
+  rpc CreateGroup (CreateGroupRequest) returns (CreateGroupResponse) {}
+  rpc GetGroup (GetGroupRequest) returns (GetGroupResponse) {}
+  rpc InviteMember (InviteMemberRequest) returns (InviteMemberResponse) {}
+  rpc RemoveMember (RemoveMemberRequest) returns (RemoveMemberResponse) {}
+  rpc InviteChatbot (InviteChatbotRequest) returns (InviteChatbotResponse) {}
+  rpc RemoveChatbot (RemoveChatbotRequest) returns (RemoveChatbotResponse) {}
+
+  rpc MessageStream(MessageStreamInit) returns (stream MessageWrapper) {}
+  rpc SendMessage(MessageWrapper) returns (SendMessageResponse) {}
+
+  rpc ServerEventStream(ServerEventStreamInit) returns (stream ServerEvent) {}
+}
+
+// Upload PreKey
+message UploadPreKeyRequest {
+  string userID = 1;
+  bytes preKey = 2;
+  uint32 preKeyID = 3;
+}
+
+message UploadPreKeyResponse {
+  bool success = 1;
+  string errorMessage = 2;
+}
+
+// Fetch PreKey
+message FetchPreKeyRequest {
+  string userID = 1;
+}
+
+message FetchPreKeyResponse {
+  bytes preKey = 1;
+  uint32 preKeyID = 2;
+  bool success = 3;
+  string errorMessage = 4;
+}
+
+// Upload SignedPreKey
+message UploadSignedPreKeyRequest {
+  string userID = 1;
+  bytes signedPreKey = 2;
+  bytes signedPreKeySig = 3;
+  uint32 signedPreKeyID = 4;
+}
+
+message UploadSignedPreKeyResponse {
+  bool success = 1;
+  string errorMessage = 2;
+}
+
+// Fetch SignedPreKey
+message FetchSignedPreKeyRequest {
+  string userID = 1;
+}
+
+message FetchSignedPreKeyResponse {
+  bytes signedPreKey = 1;
+  bytes signedPreKeySig = 2;
+  uint32 signedPreKeyID = 3;
+  bool success = 4;
+  string errorMessage = 5;
+}
+
+// Fetch IdentityKey
+message FetchIdentityKeyRequest {
+  string userID = 1;
+}
+
+message FetchIdentityKeyResponse {
+  bytes identityKey = 1;
+  bool success = 2;
+  string errorMessage = 3;
+}
+
+// Upload MLSKeyPackage
+message UploadMLSKeyPackageRequest {
+  string userID = 1;
+  bytes mlsKeyPackage = 2;
+  uint32 mlsKeyPackageId = 3;
+}
+
+message UploadMLSKeyPackageResponse {
+  bool success = 1;
+  string errorMessage = 2;
+}
+
+// Fetch MLSKeyPackage
+message FetchMLSKeyPackageRequest {
+  string userID = 1;
+}
+
+message FetchMLSKeyPackageResponse {
+  bytes mlsKeyPackage = 1;
+  uint32 mlsKeyPackageId = 2;
+  bool success = 3;
+  string errorMessage = 4;
+}
+
+// User Info
+message SetUserRequest {
+  string userID = 1;
+  bytes identityKeyPublic = 2;
+  uint32 registrationID = 3;
+}
+
+message SetUserResponse {
+  bool success = 1;
+  string errorMessage = 2;
+}
+
+message GetUserRequest {
+  string userID = 1;
+}
+
+message GetUserResponse {
+  string userID = 1;
+  bytes identityKeyPublic = 2;
+  uint32 registrationID = 3;
+  bool success = 4;
+  string errorMessage = 5;
+}
+
+// Chatbot Info
+message SetChatbotRequest {
+  string chatbotID = 1;
+  bytes identityKeyPublic = 2;
+  uint32 registrationID = 3;
+}
+
+message SetChatbotResponse {
+  bool success = 1;
+  string errorMessage = 2;
+}
+
+message GetChatbotRequest {
+  string chatbotID = 1;
+}
+
+message GetChatbotResponse {
+  string chatbotID = 1;
+  bytes identityKeyPublic = 2;
+  uint32 registrationID = 3;
+  bool success = 4;
+  string errorMessage = 5;
+}
+
+// Group Info
+enum GroupType {
+  CLIENT_SIDE = 0;
+  SERVER_SIDE = 1;
+  MLS = 2;
+}
+message CreateGroupRequest {
+  string initiatorID = 1;
+  GroupType groupType = 2;
+}
+
+message CreateGroupResponse {
+  string groupID = 1;
+  bool success = 2;
+  string errorMessage = 3;
+}
+
+message GetGroupRequest {
+  string groupID = 1;
+}
+
+message GetGroupResponse {
+  string groupID = 1;
+  repeated string participantIDs = 2;
+  GroupType groupType = 3;
+  bool success = 4;
+  string errorMessage = 5;
+}
+
+message InviteMemberRequest {
+  string groupID = 1;
+  string initiatorID = 2;
+  string invitedID = 3;
+  TreeKEMGroupInitKey treeKEMGroupInitKey = 4;
+  TreeKEMUserAdd treeKEMUserAdd = 5;
+  bytes treeKEMInitLeaf = 6;
+  map<string, bytes> chatbotPubKeys = 7;
+  map<string, bytes> chatbotSignPubKeys = 8;
+  ECKEMCipherTextStringMap lastTreeKemRootCiphertexts = 9;
+  bytes mlsWelcomeMessage = 10;
+  uint32 mlsKeyPackageID = 11;
+  bytes mlsUserAdd = 12;
+  bytes mlsAddCommit = 13;
+}
+
+message InviteMemberResponse {
+  bool success = 1;
+  string errorMessage = 2;
+}
+
+message RemoveMemberRequest {
+  string groupID = 1;
+  string initiatorID = 2;
+  string removedID = 3;
+  bytes mlsRemove = 4;
+  bytes mlsRemoveCommit = 5;
+}
+
+message RemoveMemberResponse {
+  bool success = 1;
+  string errorMessage = 2;
+}
+
+message InviteChatbotRequest {
+  string groupID = 1;
+  string initiatorID = 2;
+  string invitedID = 3;
+  bool   isIGA = 4;
+  bool   isPseudo = 5;
+  bytes  treekemRootPub = 6;
+  bytes  treekemRootSignPub = 7;
+  bytes  chatbotInitLeaf = 8;
+  ECKEMCipherText chatbotCipherText = 9;
+  bytes mlsWelcomeMessage = 10;
+  uint32 mlsKeyPackageID = 11;
+  bytes mlsUserAdd = 12;
+  bytes mlsAddCommit = 13;
+}
+
+message InviteChatbotResponse {
+  bool success = 1;
+  string errorMessage = 2;
+}
+
+message RemoveChatbotRequest {
+  string groupID = 1;
+  string initiatorID = 2;
+  string removedID = 3;
+  bytes mlsRemove = 4;
+  bytes mlsRemoveCommit = 5;
+}
+
+message RemoveChatbotResponse {
+  bool success = 1;
+  string errorMessage = 2;
+}
+
+message MessageStreamInit {
+  string userID = 1;
+}
+
+message SendMessageResponse {
+  bool success = 1;
+  string errorMessage = 2;
+}
+
+enum MessageType {
+  TEXT_MESSAGE = 0;
+  SENDER_KEY_DISTRIBUTION_MESSAGE = 1;
+  CLIENT_SIDE_GROUP_MESSAGE = 2;
+  PSEUDONYM_REGISTRATION_MESSAGE = 3;
+  VALIDATION_MESSAGE = 4;
+  SKIP = 5;
+}
+
+message Message {
+  MessageType messageType = 1;
+  bytes message = 2;
+  repeated string chatbotIDs = 3;
+  bytes signature = 4;
+}
+
+message ChatbotMessage {
+  string chatbotID = 1;
+  MessageWrapper messageWrapper = 2;
+  bool useNormalMessage = 3;
+  bool shouldSend = 4;
+}
+
+message ClientSideGroupMessage {
+  string groupID = 1;
+  MessageType messageType = 2;
+  bytes message = 3;
+}
+
+message SenderKeyDistributionMessage {
+  string groupID = 1;
+  bytes senderKeyDistributionMessage = 2;
+  bool bounceBack = 3;
+}
+
+message PseudonymRegistrationMessage {
+  string groupID = 1;
+  string pseudoUserID = 2;
+  bytes signingKeyPub = 3;
+}
+
+message ValidationMessage {
+  string groupID = 1;
+  bytes previousMessage = 2;
+  MessageType previousMessageType = 3;
+}
+
+message MessageWrapper {
+  string senderID = 1;
+  string recipientID = 2;
+  bytes encryptedMessage = 3;
+  repeated ChatbotMessage chatbotMessages = 4;
+  repeated string ChatbotIds = 5;
+  bool hasPreKey = 6;
+  bool isIGA = 7;
+  bool isPseudo = 8;
+  TreeKEMKeyUpdatePack treeKEMKeyUpdatePack = 9;
+  MultiTreeKEMExternalKeyUpdatePack chatbotKeyUpdatePack = 10;
+  bytes mlsCommit = 11;
+}
+
+message ServerEventStreamInit {
+  string userID = 1;
+}
+
+enum ServerEventType {
+  GROUP_INVITATION = 0;
+  GROUP_ADDITION = 1;
+  GROUP_REMOVAL = 2;
+  GROUP_CHATBOT_INVITATION = 3;
+  GROUP_CHATBOT_ADDITION = 4;
+  GROUP_CHATBOT_REMOVAL = 5;
+}
+
+message GroupInvitation {
+  string senderID = 1;
+  string groupID = 2;
+  repeated string participantIDs = 3;
+  repeated string chatbotIDs = 4;
+  map<string, bool> chatbotIsIGA = 5;
+  map<string, bool> chatbotIsPseudo = 6;
+  TreeKEMGroupInitKey treeKEMGroupInitKey = 7;
+  bytes treeKEMInitLeaf = 8;
+  map<string, bytes> chatbotPubKeys = 9;
+  map<string, bytes> chatbotSignPubKeys = 10;
+  ECKEMCipherTextStringMap lastTreeKemRootCiphertexts = 11;
+  bytes MlsWelcomeMessage = 12;
+  uint32 MlsKeyPackageID = 13;
+  GroupType groupType = 14;
+}
+
+message GroupAddition {
+  string senderID = 1;
+  string groupID = 2;
+  string addedID = 3;
+  repeated string participantIDs = 4;
+  TreeKEMUserAdd treeKEMUserAdd = 5;
+  bytes mlsUserAdd = 6;
+  bytes mlsAddCommit = 7;
+  GroupType groupType = 8;
+}
+
+message GroupRemoval {
+  string senderID = 1;
+  string groupID = 2;
+  string removedID = 3;
+  repeated string participantIDs = 4;
+  bytes mlsRemove = 5;
+  bytes mlsRemoveCommit = 6;
+  GroupType groupType = 7;
+}
+
+message GroupChatbotInvitation {
+  string senderID = 1;
+  string groupID = 2;
+  repeated string participantIDs = 3;
+  GroupType groupType = 4;
+  bool  isIGA = 5;
+  bool  isPseudo = 6;
+  bytes treekemRootPub = 7;
+  bytes treekemRootSignPub = 8;
+  bytes chatbotInitLeaf = 9;
+  bytes MlsWelcomeMessage = 10;
+  uint32 MlsKeyPackageID = 11;
+}
+
+message GroupChatbotAddition {
+  string senderID = 1;
+  string groupID = 2;
+  string addedChatbotID = 3;
+  repeated string chatbotIDs = 4;
+  GroupType groupType = 5;
+  bool  isIGA = 6;
+  bool  isPseudo = 7;
+  ECKEMCipherText chatbotCipherText = 8;
+  bytes mlsUserAdd = 9;
+  bytes mlsAddCommit = 10;
+}
+
+message GroupChatbotRemoval {
+  string senderID = 1;
+  string groupID = 2;
+  string removedChatbotID = 3;
+  repeated string chatbotIDs = 4;
+  bytes mlsRemove = 5;
+  bytes mlsRemoveCommit = 6;
+  GroupType groupType = 7;
+}
+
+message ServerEvent {
+  ServerEventType eventType = 1;
+  oneof eventData {
+    GroupInvitation groupInvitation = 2;
+    GroupAddition groupAddition = 3;
+    GroupRemoval groupRemoval = 4;
+    GroupChatbotInvitation groupChatbotInvitation = 5;
+    GroupChatbotAddition groupChatbotAddition = 6;
+    GroupChatbotRemoval groupChatbotRemoval = 7;
+  }
+}
+
+// TreeKEM
+message TreeKEMUserAdd {
+  uint32 Size = 1;
+  repeated ECKEMCipherTextMap Ciphertexts = 2;
+  map<uint32, TreeKEMNode> Nodes = 3;
+}
+
+message TreeKEMUserUpdate {
+  uint32 From = 1;
+  repeated ECKEMCipherTextMap Ciphertexts = 2;
+  map<uint32, TreeKEMNode> Nodes = 3;
+}
+
+message TreeKEMKeyUpdatePack {
+  TreeKEMUserUpdate UserUpdate = 1;
+  ECKEMCipherTextStringMap ChatbotUpdateCiphertexts = 2;
+  bytes NewRootPubKey = 3;
+  bytes NewRootSignPubKey = 4;
+}
+
+message MultiTreeKEMExternalKeyUpdatePack {
+    ECKEMCipherText ChatbotUpdate = 1;
+    bytes NewCbPubKey = 2;
+    bytes NewCbSignPubKey = 3;
+}
+
+message TreeKEMGroupInitKey {
+  uint32 Size = 1;
+  map<uint32, TreeKEMNode> Frontier = 2;
+}
+
+message ECKEMCipherText {
+  bytes Public = 1;
+  bytes IV = 2;
+  bytes CipherText = 3;
+}
+
+message ECKEMCipherTextMap {
+  map<uint32, ECKEMCipherText> Ciphertexts = 1;
+}
+
+message ECKEMCipherTextStringMap {
+  map<string, ECKEMCipherText> Ciphertexts = 1;
+}
+
+message TreeKEMNode {
+  bytes Secret = 1;
+  bytes Public = 2;
+  bytes Private = 3;
+  bytes SignPublic = 4;
+  bytes SignPrivate = 5;
+}

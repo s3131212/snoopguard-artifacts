@@ -1,0 +1,968 @@
+=== RUN   TestBenchmarkChatbotAdditionSingleUser
+Create Users and Chatbots:  5  users,  100  chatbots finished
+Create Server Side Group:  5  members,  0  chatbots finished
+====================   Chatbot Addition: 5 members   ====================
+  avg 2.71ms;  min 2.64ms;  p50 2.69ms;  max 3.99ms;
+  p90 2.73ms;  p99 3.99ms;  p999 3.99ms;  p9999 3.99ms;
+     2.64ms [ 96] ████████████████████████████████████████
+      2.8ms [  1] 
+        3ms [  1] 
+      3.2ms [  1] 
+      3.4ms [  0] 
+      3.6ms [  0] 
+      3.8ms [  1] 
+        4ms [  0] 
+      4.2ms [  0] 
+      4.4ms [  0] 
+
+Create Users and Chatbots:  5  users,  100  chatbots finished
+Create Server Side Group:  5  members,  0  chatbots finished
+====================   Chatbot Addition: 5 members, IGA   ====================
+  avg 219µs;  min 200µs;  p50 218µs;  max 257µs;
+  p90 232µs;  p99 257µs;  p999 257µs;  p9999 257µs;
+      200µs [ 13] ████████████
+      210µs [ 43] ████████████████████████████████████████
+      220µs [ 32] █████████████████████████████▌
+      230µs [  9] ████████
+      240µs [  2] █▌
+      250µs [  1] ▌
+      260µs [  0] 
+      270µs [  0] 
+      280µs [  0] 
+      290µs [  0] 
+
+Create Users and Chatbots:  5  users,  100  chatbots finished
+Create Server Side Group:  5  members,  0  chatbots finished
+====================   Chatbot Addition: 5 members, IGA, Pseudo   ====================
+  avg 842µs;  min 792µs;  p50 837µs;  max 963µs;
+  p90 870µs;  p99 963µs;  p999 963µs;  p9999 963µs;
+      792µs [  1] █
+      800µs [ 14] ██████████████
+      820µs [ 39] ████████████████████████████████████████
+      840µs [ 27] ███████████████████████████▌
+      860µs [ 13] █████████████
+      880µs [  0] 
+      900µs [  4] ████
+      920µs [  0] 
+      940µs [  1] █
+      960µs [  1] █
+
+Create Users and Chatbots:  10  users,  100  chatbots finished
+Create Server Side Group:  10  members,  0  chatbots finished
+====================   Chatbot Addition: 10 members   ====================
+  avg 5.09ms;  min 4.91ms;  p50 5.08ms;  max 5.53ms;
+  p90 5.24ms;  p99 5.53ms;  p999 5.53ms;  p9999 5.53ms;
+     4.91ms [ 20] ███████████████████
+        5ms [ 42] ████████████████████████████████████████
+      5.1ms [ 23] █████████████████████▌
+      5.2ms [  8] ███████▌
+      5.3ms [  5] ████▌
+      5.4ms [  0] 
+      5.5ms [  2] █▌
+      5.6ms [  0] 
+      5.7ms [  0] 
+      5.8ms [  0] 
+
+Create Users and Chatbots:  10  users,  100  chatbots finished
+Create Server Side Group:  10  members,  0  chatbots finished
+====================   Chatbot Addition: 10 members, IGA   ====================
+  avg 221µs;  min 202µs;  p50 221µs;  max 278µs;
+  p90 235µs;  p99 278µs;  p999 278µs;  p9999 278µs;
+      202µs [ 12] ██████████████
+      210µs [ 34] ████████████████████████████████████████
+      220µs [ 29] ██████████████████████████████████
+      230µs [ 20] ███████████████████████▌
+      240µs [  3] ███▌
+      250µs [  0] 
+      260µs [  1] █
+      270µs [  1] █
+      280µs [  0] 
+      290µs [  0] 
+
+Create Users and Chatbots:  10  users,  100  chatbots finished
+Create Server Side Group:  10  members,  0  chatbots finished
+====================   Chatbot Addition: 10 members, IGA, Pseudo   ====================
+  avg 948µs;  min 910µs;  p50 943µs;  max 1.06ms;
+  p90 981µs;  p99 1.06ms;  p999 1.06ms;  p9999 1.06ms;
+      910µs [  7] ███████
+      920µs [ 40] ████████████████████████████████████████
+      940µs [ 30] ██████████████████████████████
+      960µs [ 13] █████████████
+      980µs [  4] ████
+        1ms [  3] ███
+     1.02ms [  1] █
+     1.04ms [  1] █
+     1.06ms [  1] █
+     1.08ms [  0] 
+
+Create Users and Chatbots:  15  users,  100  chatbots finished
+Create Server Side Group:  15  members,  0  chatbots finished
+====================   Chatbot Addition: 15 members   ====================
+  avg 7.55ms;  min 7.42ms;  p50 7.53ms;  max 7.88ms;
+  p90 7.67ms;  p99 7.88ms;  p999 7.88ms;  p9999 7.88ms;
+     7.42ms [  5] █████
+     7.45ms [ 20] █████████████████████▌
+      7.5ms [ 37] ████████████████████████████████████████
+     7.55ms [ 20] █████████████████████▌
+      7.6ms [  7] ███████▌
+     7.65ms [  2] ██
+      7.7ms [  5] █████
+     7.75ms [  0] 
+      7.8ms [  3] ███
+     7.85ms [  1] █
+
+Create Users and Chatbots:  15  users,  100  chatbots finished
+Create Server Side Group:  15  members,  0  chatbots finished
+====================   Chatbot Addition: 15 members, IGA   ====================
+  avg 218µs;  min 197µs;  p50 216µs;  max 283µs;
+  p90 235µs;  p99 283µs;  p999 283µs;  p9999 283µs;
+      197µs [  1] █
+      200µs [ 24] █████████████████████████▌
+      210µs [ 37] ████████████████████████████████████████
+      220µs [ 24] █████████████████████████▌
+      230µs [ 10] ██████████▌
+      240µs [  1] █
+      250µs [  0] 
+      260µs [  2] ██
+      270µs [  0] 
+      280µs [  1] █
+
+Create Users and Chatbots:  15  users,  100  chatbots finished
+Create Server Side Group:  15  members,  0  chatbots finished
+====================   Chatbot Addition: 15 members, IGA, Pseudo   ====================
+  avg 962µs;  min 896µs;  p50 950µs;  max 1.1ms;
+  p90 1.03ms;  p99 1.1ms;  p999 1.1ms;  p9999 1.1ms;
+      896µs [  1] ▌
+      900µs [ 49] ████████████████████████████████████████
+      950µs [ 32] ██████████████████████████
+        1ms [ 14] ███████████
+     1.05ms [  3] ██
+      1.1ms [  1] ▌
+     1.15ms [  0] 
+      1.2ms [  0] 
+     1.25ms [  0] 
+      1.3ms [  0] 
+
+Create Users and Chatbots:  20  users,  100  chatbots finished
+Create Server Side Group:  20  members,  0  chatbots finished
+====================   Chatbot Addition: 20 members   ====================
+  avg 10ms;  min 9.65ms;  p50 9.84ms;  max 25.7ms;
+  p90 10ms;  p99 25.7ms;  p999 25.7ms;  p9999 25.7ms;
+     9.66ms [ 85] ████████████████████████████████████████
+       10ms [ 13] ██████
+       12ms [  1] 
+       14ms [  0] 
+       16ms [  0] 
+       18ms [  0] 
+       20ms [  0] 
+       22ms [  0] 
+       24ms [  1] 
+       26ms [  0] 
+
+Create Users and Chatbots:  20  users,  100  chatbots finished
+Create Server Side Group:  20  members,  0  chatbots finished
+====================   Chatbot Addition: 20 members, IGA   ====================
+  avg 233µs;  min 194µs;  p50 226µs;  max 353µs;
+  p90 268µs;  p99 353µs;  p999 353µs;  p9999 353µs;
+      194µs [  3] ██▌
+      200µs [ 26] ██████████████████████▌
+      220µs [ 46] ████████████████████████████████████████
+      240µs [ 14] ████████████
+      260µs [  4] ███
+      280µs [  1] ▌
+      300µs [  3] ██▌
+      320µs [  2] █▌
+      340µs [  1] ▌
+      360µs [  0] 
+
+Create Users and Chatbots:  20  users,  100  chatbots finished
+Create Server Side Group:  20  members,  0  chatbots finished
+====================   Chatbot Addition: 20 members, IGA, Pseudo   ====================
+  avg 1.04ms;  min 1ms;  p50 1.04ms;  max 1.1ms;
+  p90 1.07ms;  p99 1.1ms;  p999 1.1ms;  p9999 1.1ms;
+        1ms [  2] ███
+     1.01ms [  4] ██████▌
+     1.02ms [  8] █████████████
+     1.03ms [ 24] ████████████████████████████████████████
+     1.04ms [ 21] ███████████████████████████████████
+     1.05ms [ 15] █████████████████████████
+     1.06ms [ 10] ████████████████▌
+     1.07ms [ 12] ████████████████████
+     1.08ms [  1] █▌
+     1.09ms+[  3] █████
+
+Create Users and Chatbots:  25  users,  100  chatbots finished
+Create Server Side Group:  25  members,  0  chatbots finished
+====================   Chatbot Addition: 25 members   ====================
+  avg 12.1ms;  min 12ms;  p50 12.1ms;  max 12.5ms;
+  p90 12.2ms;  p99 12.5ms;  p999 12.5ms;  p9999 12.5ms;
+     12.1ms [  4] █████
+     12.1ms [ 21] ████████████████████████████
+     12.2ms [ 30] ████████████████████████████████████████
+     12.2ms [ 27] ████████████████████████████████████
+     12.3ms [ 11] ██████████████▌
+     12.3ms [  5] ██████▌
+     12.4ms [  1] █
+     12.4ms [  0] 
+     12.5ms [  0] 
+     12.5ms [  1] █
+
+Create Users and Chatbots:  25  users,  100  chatbots finished
+Create Server Side Group:  25  members,  0  chatbots finished
+====================   Chatbot Addition: 25 members, IGA   ====================
+  avg 225µs;  min 197µs;  p50 221µs;  max 303µs;
+  p90 245µs;  p99 303µs;  p999 303µs;  p9999 303µs;
+      197µs [  1] ▌
+      200µs [ 39] ███████████████████████████████▌
+      220µs [ 49] ████████████████████████████████████████
+      240µs [  5] ████
+      260µs [  3] ██
+      280µs [  2] █▌
+      300µs [  1] ▌
+      320µs [  0] 
+      340µs [  0] 
+      360µs [  0] 
+
+Create Users and Chatbots:  25  users,  100  chatbots finished
+Create Server Side Group:  25  members,  0  chatbots finished
+====================   Chatbot Addition: 25 members, IGA, Pseudo   ====================
+  avg 1.08ms;  min 1.01ms;  p50 1.07ms;  max 1.28ms;
+  p90 1.12ms;  p99 1.28ms;  p999 1.28ms;  p9999 1.28ms;
+     1.02ms [ 10] ██████
+     1.05ms [ 66] ████████████████████████████████████████
+      1.1ms [ 18] ██████████▌
+     1.15ms [  4] ██
+      1.2ms [  1] ▌
+     1.25ms [  1] ▌
+      1.3ms [  0] 
+     1.35ms [  0] 
+      1.4ms [  0] 
+     1.45ms [  0] 
+
+Create Users and Chatbots:  30  users,  100  chatbots finished
+Create Server Side Group:  30  members,  0  chatbots finished
+====================   Chatbot Addition: 30 members   ====================
+  avg 14.6ms;  min 14.4ms;  p50 14.6ms;  max 14.9ms;
+  p90 14.7ms;  p99 14.9ms;  p999 14.9ms;  p9999 14.9ms;
+     14.5ms [  3] ████
+     14.5ms [  4] █████▌
+     14.6ms [  7] ██████████
+     14.6ms [ 22] ████████████████████████████████▌
+     14.7ms [ 27] ████████████████████████████████████████
+     14.7ms [ 25] █████████████████████████████████████
+     14.8ms [  8] ███████████▌
+     14.8ms [  3] ████
+     14.9ms [  0] 
+     14.9ms [  1] █
+
+Create Users and Chatbots:  30  users,  100  chatbots finished
+Create Server Side Group:  30  members,  0  chatbots finished
+====================   Chatbot Addition: 30 members, IGA   ====================
+  avg 227µs;  min 196µs;  p50 225µs;  max 362µs;
+  p90 247µs;  p99 362µs;  p999 362µs;  p9999 362µs;
+      196µs [  2] █▌
+      200µs [ 37] ████████████████████████████████
+      220µs [ 46] ████████████████████████████████████████
+      240µs [  8] ██████▌
+      260µs [  4] ███
+      280µs [  1] ▌
+      300µs [  1] ▌
+      320µs [  0] 
+      340µs [  0] 
+      360µs [  1] ▌
+
+Create Users and Chatbots:  30  users,  100  chatbots finished
+Create Server Side Group:  30  members,  0  chatbots finished
+====================   Chatbot Addition: 30 members, IGA, Pseudo   ====================
+  avg 1.08ms;  min 1.03ms;  p50 1.07ms;  max 1.2ms;
+  p90 1.12ms;  p99 1.2ms;  p999 1.2ms;  p9999 1.2ms;
+     1.04ms [  3] ████
+     1.04ms [ 18] ████████████████████████
+     1.06ms [ 30] ████████████████████████████████████████
+     1.08ms [ 21] ████████████████████████████
+      1.1ms [ 15] ████████████████████
+     1.12ms [  5] ██████▌
+     1.14ms [  3] ████
+     1.16ms [  1] █
+     1.18ms [  2] ██▌
+      1.2ms [  2] ██▌
+
+Create Users and Chatbots:  35  users,  100  chatbots finished
+Create Server Side Group:  35  members,  0  chatbots finished
+====================   Chatbot Addition: 35 members   ====================
+  avg 17.2ms;  min 16.8ms;  p50 17.2ms;  max 17.5ms;
+  p90 17.4ms;  p99 17.5ms;  p999 17.5ms;  p9999 17.5ms;
+     16.9ms [  1] █
+     16.9ms [  0] 
+       17ms [  4] ████▌
+     17.1ms [ 20] ███████████████████████▌
+     17.2ms [ 34] ████████████████████████████████████████
+     17.3ms [ 30] ███████████████████████████████████
+     17.4ms [  8] █████████
+     17.5ms [  3] ███▌
+     17.6ms [  0] 
+     17.7ms [  0] 
+
+Create Users and Chatbots:  35  users,  100  chatbots finished
+Create Server Side Group:  35  members,  0  chatbots finished
+====================   Chatbot Addition: 35 members, IGA   ====================
+  avg 225µs;  min 191µs;  p50 222µs;  max 296µs;
+  p90 246µs;  p99 296µs;  p999 296µs;  p9999 296µs;
+      191µs [  1] ▌
+      200µs [ 36] ███████████████████████████▌
+      220µs [ 52] ████████████████████████████████████████
+      240µs [  5] ███▌
+      260µs [  4] ███
+      280µs [  2] █▌
+      300µs [  0] 
+      320µs [  0] 
+      340µs [  0] 
+      360µs [  0] 
+
+Create Users and Chatbots:  35  users,  100  chatbots finished
+Create Server Side Group:  35  members,  0  chatbots finished
+====================   Chatbot Addition: 35 members, IGA, Pseudo   ====================
+  avg 1.2ms;  min 1.14ms;  p50 1.19ms;  max 1.55ms;
+  p90 1.25ms;  p99 1.55ms;  p999 1.55ms;  p9999 1.55ms;
+     1.14ms [  4] ███
+     1.15ms [ 52] ████████████████████████████████████████
+      1.2ms [ 33] █████████████████████████
+     1.25ms [  6] ████▌
+      1.3ms [  2] █▌
+     1.35ms [  1] ▌
+      1.4ms [  1] ▌
+     1.45ms [  0] 
+      1.5ms [  0] 
+     1.55ms [  1] ▌
+
+Create Users and Chatbots:  40  users,  100  chatbots finished
+Create Server Side Group:  40  members,  0  chatbots finished
+====================   Chatbot Addition: 40 members   ====================
+  avg 19.4ms;  min 19.1ms;  p50 19.4ms;  max 19.8ms;
+  p90 19.6ms;  p99 19.8ms;  p999 19.8ms;  p9999 19.8ms;
+     19.2ms [  1] ▌
+     19.2ms [  4] ███▌
+     19.3ms [ 16] ███████████████
+     19.4ms [ 42] ████████████████████████████████████████
+     19.5ms [ 27] █████████████████████████▌
+     19.6ms [  6] █████▌
+     19.7ms [  3] ██▌
+     19.8ms [  1] ▌
+     19.9ms [  0] 
+       20ms [  0] 
+
+Create Users and Chatbots:  40  users,  100  chatbots finished
+Create Server Side Group:  40  members,  0  chatbots finished
+====================   Chatbot Addition: 40 members, IGA   ====================
+  avg 229µs;  min 197µs;  p50 225µs;  max 330µs;
+  p90 250µs;  p99 330µs;  p999 330µs;  p9999 330µs;
+      197µs [  1] ▌
+      200µs [ 28] ███████████████████
+      220µs [ 58] ████████████████████████████████████████
+      240µs [  6] ████
+      260µs [  0] 
+      280µs [  4] ██▌
+      300µs [  2] █
+      320µs [  1] ▌
+      340µs [  0] 
+      360µs [  0] 
+
+Create Users and Chatbots:  40  users,  100  chatbots finished
+Create Server Side Group:  40  members,  0  chatbots finished
+====================   Chatbot Addition: 40 members, IGA, Pseudo   ====================
+  avg 1.17ms;  min 1.11ms;  p50 1.16ms;  max 1.5ms;
+  p90 1.22ms;  p99 1.5ms;  p999 1.5ms;  p9999 1.5ms;
+     1.12ms [ 27] ███████████████████▌
+     1.15ms [ 55] ████████████████████████████████████████
+      1.2ms [ 12] ████████▌
+     1.25ms [  2] █
+      1.3ms [  1] ▌
+     1.35ms [  2] █
+      1.4ms [  0] 
+     1.45ms [  0] 
+      1.5ms [  1] ▌
+     1.55ms [  0] 
+
+Create Users and Chatbots:  45  users,  100  chatbots finished
+Create Server Side Group:  45  members,  0  chatbots finished
+====================   Chatbot Addition: 45 members   ====================
+  avg 22ms;  min 21.4ms;  p50 22ms;  max 23.2ms;
+  p90 22.2ms;  p99 23.2ms;  p999 23.2ms;  p9999 23.2ms;
+     21.5ms [  1] ▌
+     21.6ms [  3] ██
+     21.8ms [ 24] ██████████████████▌
+       22ms [ 51] ████████████████████████████████████████
+     22.2ms [ 17] █████████████
+     22.4ms [  2] █▌
+     22.6ms [  1] ▌
+     22.8ms [  0] 
+       23ms [  0] 
+     23.2ms [  1] ▌
+
+Create Users and Chatbots:  45  users,  100  chatbots finished
+Create Server Side Group:  45  members,  0  chatbots finished
+====================   Chatbot Addition: 45 members, IGA   ====================
+  avg 234µs;  min 197µs;  p50 223µs;  max 474µs;
+  p90 269µs;  p99 474µs;  p999 474µs;  p9999 474µs;
+      197µs [  1] 
+      200µs [ 83] ████████████████████████████████████████
+      250µs [ 12] █████▌
+      300µs [  1] 
+      350µs [  1] 
+      400µs [  1] 
+      450µs [  1] 
+      500µs [  0] 
+      550µs [  0] 
+      600µs [  0] 
+
+Create Users and Chatbots:  45  users,  100  chatbots finished
+Create Server Side Group:  45  members,  0  chatbots finished
+====================   Chatbot Addition: 45 members, IGA, Pseudo   ====================
+  avg 1.19ms;  min 1.12ms;  p50 1.17ms;  max 2.17ms;
+  p90 1.23ms;  p99 2.17ms;  p999 2.17ms;  p9999 2.17ms;
+     1.13ms [ 77] ████████████████████████████████████████
+      1.2ms [ 22] ███████████
+      1.4ms [  0] 
+      1.6ms [  0] 
+      1.8ms [  0] 
+        2ms [  1] ▌
+      2.2ms [  0] 
+      2.4ms [  0] 
+      2.6ms [  0] 
+      2.8ms [  0] 
+
+Create Users and Chatbots:  50  users,  100  chatbots finished
+Create Server Side Group:  50  members,  0  chatbots finished
+====================   Chatbot Addition: 50 members   ====================
+  avg 24.3ms;  min 23.8ms;  p50 24.2ms;  max 25.6ms;
+  p90 24.5ms;  p99 25.6ms;  p999 25.6ms;  p9999 25.6ms;
+     23.8ms [  7] █████▌
+       24ms [ 27] ██████████████████████
+     24.2ms [ 48] ████████████████████████████████████████
+     24.4ms [  9] ███████
+     24.6ms [  1] ▌
+     24.8ms [  4] ███
+       25ms [  2] █▌
+     25.2ms [  0] 
+     25.4ms [  0] 
+     25.6ms [  2] █▌
+
+Create Users and Chatbots:  50  users,  100  chatbots finished
+Create Server Side Group:  50  members,  0  chatbots finished
+====================   Chatbot Addition: 50 members, IGA   ====================
+  avg 246µs;  min 199µs;  p50 232µs;  max 449µs;
+  p90 305µs;  p99 449µs;  p999 449µs;  p9999 449µs;
+      199µs [  1] ▌
+      200µs [ 68] ████████████████████████████████████████
+      250µs [ 21] ████████████
+      300µs [  7] ████
+      350µs [  2] █
+      400µs [  1] ▌
+      450µs [  0] 
+      500µs [  0] 
+      550µs [  0] 
+      600µs [  0] 
+
+Create Users and Chatbots:  50  users,  100  chatbots finished
+Create Server Side Group:  50  members,  0  chatbots finished
+====================   Chatbot Addition: 50 members, IGA, Pseudo   ====================
+  avg 1.31ms;  min 1.16ms;  p50 1.26ms;  max 3.1ms;
+  p90 1.36ms;  p99 3.1ms;  p999 3.1ms;  p9999 3.1ms;
+     1.17ms [ 12] ██████
+      1.2ms [ 79] ████████████████████████████████████████
+      1.4ms [  3] █▌
+      1.6ms [  2] █
+      1.8ms [  1] ▌
+        2ms [  0] 
+      2.2ms [  2] █
+      2.4ms [  0] 
+      2.6ms [  0] 
+      2.8ms+[  1] ▌
+
+--- PASS: TestBenchmarkChatbotAdditionSingleUser (215.95s)
+PASS
+ok  	chatbot-poc-go/pkg/benchmark	216.403s
+=== RUN   TestBenchmarkMlsChatbotAdditionSingleUser
+Create Users and Chatbots:  5  users,  100  chatbots finished
+Create MLS Group:  5  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 5 members   ====================
+  avg 1.05ms;  min 500µs;  p50 1.04ms;  max 1.61ms;
+  p90 1.55ms;  p99 1.61ms;  p999 1.61ms;  p9999 1.61ms;
+      500µs [ 11] ███████████████████
+      600µs [ 12] ████████████████████▌
+      800µs [ 23] ████████████████████████████████████████
+        1ms [ 20] ██████████████████████████████████▌
+      1.2ms [ 13] ██████████████████████▌
+      1.4ms [ 19] █████████████████████████████████
+      1.6ms [  2] ███
+      1.8ms [  0] 
+        2ms [  0] 
+      2.2ms [  0] 
+
+Create Users and Chatbots:  5  users,  100  chatbots finished
+Create MLS Group:  5  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 5 members, IGA   ====================
+  avg 229µs;  min 186µs;  p50 212µs;  max 432µs;
+  p90 300µs;  p99 432µs;  p999 432µs;  p9999 432µs;
+      186µs [ 17] ██████████▌
+      200µs [ 64] ████████████████████████████████████████
+      250µs [  9] █████▌
+      300µs [  6] ███▌
+      350µs [  3] █▌
+      400µs [  1] ▌
+      450µs [  0] 
+      500µs [  0] 
+      550µs [  0] 
+      600µs [  0] 
+
+Create Users and Chatbots:  5  users,  100  chatbots finished
+Create MLS Group:  5  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 5 members, IGA, Pseudo   ====================
+  avg 9.57ms;  min 539µs;  p50 9.64ms;  max 18.7ms;
+  p90 16.8ms;  p99 18.7ms;  p999 18.7ms;  p9999 18.7ms;
+      539µs [  9] ██████████████████████████████
+        2ms [ 11] ████████████████████████████████████▌
+        4ms [ 11] ████████████████████████████████████▌
+        6ms [ 10] █████████████████████████████████
+        8ms [ 12] ████████████████████████████████████████
+       10ms [  9] ██████████████████████████████
+       12ms [ 12] ████████████████████████████████████████
+       14ms [ 11] ████████████████████████████████████▌
+       16ms [ 11] ████████████████████████████████████▌
+       18ms [  4] █████████████
+
+Create Users and Chatbots:  10  users,  100  chatbots finished
+Create MLS Group:  10  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 10 members   ====================
+  avg 1.09ms;  min 541µs;  p50 1.08ms;  max 1.63ms;
+  p90 1.51ms;  p99 1.63ms;  p999 1.63ms;  p9999 1.63ms;
+      541µs [  5] █████████▌
+      600µs [ 18] ██████████████████████████████████
+      800µs [ 15] ████████████████████████████▌
+        1ms [ 21] ████████████████████████████████████████
+      1.2ms [ 19] ████████████████████████████████████
+      1.4ms [ 21] ████████████████████████████████████████
+      1.6ms [  1] █▌
+      1.8ms [  0] 
+        2ms [  0] 
+      2.2ms [  0] 
+
+Create Users and Chatbots:  10  users,  100  chatbots finished
+Create MLS Group:  10  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 10 members, IGA   ====================
+  avg 238µs;  min 185µs;  p50 218µs;  max 389µs;
+  p90 330µs;  p99 389µs;  p999 389µs;  p9999 389µs;
+      185µs [ 13] ████████▌
+      200µs [ 58] ████████████████████████████████████████
+      250µs [ 14] █████████▌
+      300µs [ 10] ██████▌
+      350µs [  5] ███
+      400µs [  0] 
+      450µs [  0] 
+      500µs [  0] 
+      550µs [  0] 
+      600µs [  0] 
+
+Create Users and Chatbots:  10  users,  100  chatbots finished
+Create MLS Group:  10  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 10 members, IGA, Pseudo   ====================
+  avg 9.5ms;  min 437µs;  p50 9.69ms;  max 18.3ms;
+  p90 16.7ms;  p99 18.3ms;  p999 18.3ms;  p9999 18.3ms;
+      437µs [  9] ███████████████████████████▌
+        2ms [ 11] █████████████████████████████████▌
+        4ms [ 10] ██████████████████████████████▌
+        6ms [ 11] █████████████████████████████████▌
+        8ms [ 11] █████████████████████████████████▌
+       10ms [ 11] █████████████████████████████████▌
+       12ms [ 12] ████████████████████████████████████▌
+       14ms [ 13] ████████████████████████████████████████
+       16ms [  9] ███████████████████████████▌
+       18ms [  3] █████████
+
+Create Users and Chatbots:  15  users,  100  chatbots finished
+Create MLS Group:  15  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 15 members   ====================
+  avg 1.14ms;  min 666µs;  p50 1.14ms;  max 1.68ms;
+  p90 1.52ms;  p99 1.68ms;  p999 1.68ms;  p9999 1.68ms;
+      666µs [ 18] ██████████████████████████████
+      800µs [ 14] ███████████████████████
+        1ms [ 24] ████████████████████████████████████████
+      1.2ms [ 18] ██████████████████████████████
+      1.4ms [ 23] ██████████████████████████████████████
+      1.6ms [  3] █████
+      1.8ms [  0] 
+        2ms [  0] 
+      2.2ms [  0] 
+      2.4ms [  0] 
+
+Create Users and Chatbots:  15  users,  100  chatbots finished
+Create MLS Group:  15  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 15 members, IGA   ====================
+  avg 234µs;  min 191µs;  p50 221µs;  max 425µs;
+  p90 287µs;  p99 425µs;  p999 425µs;  p9999 425µs;
+      191µs [  9] █████▌
+      200µs [ 62] ████████████████████████████████████████
+      250µs [ 24] ███████████████
+      300µs [  4] ██▌
+      350µs [  0] 
+      400µs [  1] ▌
+      450µs [  0] 
+      500µs [  0] 
+      550µs [  0] 
+      600µs [  0] 
+
+Create Users and Chatbots:  15  users,  100  chatbots finished
+Create MLS Group:  15  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 15 members, IGA, Pseudo   ====================
+  avg 9.57ms;  min 522µs;  p50 9.74ms;  max 18.4ms;
+  p90 16.7ms;  p99 18.4ms;  p999 18.4ms;  p9999 18.4ms;
+      522µs [  9] ██████████████████████████████
+        2ms [ 11] ████████████████████████████████████▌
+        4ms [ 10] █████████████████████████████████
+        6ms [ 10] █████████████████████████████████
+        8ms [ 12] ████████████████████████████████████████
+       10ms [ 11] ████████████████████████████████████▌
+       12ms [ 12] ████████████████████████████████████████
+       14ms [ 11] ████████████████████████████████████▌
+       16ms [ 11] ████████████████████████████████████▌
+       18ms [  3] ██████████
+
+Create Users and Chatbots:  20  users,  100  chatbots finished
+Create MLS Group:  20  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 20 members   ====================
+  avg 1.26ms;  min 725µs;  p50 1.25ms;  max 1.77ms;
+  p90 1.7ms;  p99 1.77ms;  p999 1.77ms;  p9999 1.77ms;
+      725µs [ 11] ██████████████████████
+      800µs [ 13] ██████████████████████████
+        1ms [ 20] ████████████████████████████████████████
+      1.2ms [ 19] ██████████████████████████████████████
+      1.4ms [ 17] ██████████████████████████████████
+      1.6ms [ 20] ████████████████████████████████████████
+      1.8ms [  0] 
+        2ms [  0] 
+      2.2ms [  0] 
+      2.4ms [  0] 
+
+Create Users and Chatbots:  20  users,  100  chatbots finished
+Create MLS Group:  20  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 20 members, IGA   ====================
+  avg 240µs;  min 185µs;  p50 221µs;  max 397µs;
+  p90 317µs;  p99 397µs;  p999 397µs;  p9999 397µs;
+      185µs [  7] ████
+      200µs [ 65] ████████████████████████████████████████
+      250µs [ 14] ████████▌
+      300µs [ 10] ██████
+      350µs [  4] ██
+      400µs [  0] 
+      450µs [  0] 
+      500µs [  0] 
+      550µs [  0] 
+      600µs [  0] 
+
+Create Users and Chatbots:  20  users,  100  chatbots finished
+Create MLS Group:  20  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 20 members, IGA, Pseudo   ====================
+  avg 9.84ms;  min 486µs;  p50 10.2ms;  max 18.6ms;
+  p90 17ms;  p99 18.6ms;  p999 18.6ms;  p9999 18.6ms;
+      486µs [  8] ██████████████████████▌
+        2ms [ 10] ████████████████████████████▌
+        4ms [ 11] ███████████████████████████████
+        6ms [ 10] ████████████████████████████▌
+        8ms [ 11] ███████████████████████████████
+       10ms [ 10] ████████████████████████████▌
+       12ms [ 14] ████████████████████████████████████████
+       14ms [ 11] ███████████████████████████████
+       16ms [ 10] ████████████████████████████▌
+       18ms [  5] ██████████████
+
+Create Users and Chatbots:  25  users,  100  chatbots finished
+Create MLS Group:  25  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 25 members   ====================
+  avg 1.24ms;  min 755µs;  p50 1.25ms;  max 1.78ms;
+  p90 1.66ms;  p99 1.78ms;  p999 1.78ms;  p9999 1.78ms;
+      755µs [  5] █████████▌
+      800µs [ 18] ██████████████████████████████████
+        1ms [ 20] ██████████████████████████████████████
+      1.2ms [ 21] ████████████████████████████████████████
+      1.4ms [ 19] ████████████████████████████████████
+      1.6ms [ 17] ████████████████████████████████
+      1.8ms [  0] 
+        2ms [  0] 
+      2.2ms [  0] 
+      2.4ms [  0] 
+
+Create Users and Chatbots:  25  users,  100  chatbots finished
+Create MLS Group:  25  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 25 members, IGA   ====================
+  avg 248µs;  min 191µs;  p50 227µs;  max 416µs;
+  p90 330µs;  p99 416µs;  p999 416µs;  p9999 416µs;
+      191µs [  6] ████
+      200µs [ 59] ████████████████████████████████████████
+      250µs [ 16] ██████████▌
+      300µs [ 15] ██████████
+      350µs [  3] ██
+      400µs [  1] ▌
+      450µs [  0] 
+      500µs [  0] 
+      550µs [  0] 
+      600µs [  0] 
+
+Create Users and Chatbots:  25  users,  100  chatbots finished
+Create MLS Group:  25  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 25 members, IGA, Pseudo   ====================
+  avg 9.76ms;  min 499µs;  p50 9.96ms;  max 18.4ms;
+  p90 16.7ms;  p99 18.4ms;  p999 18.4ms;  p9999 18.4ms;
+      499µs [  7] ████████████████████
+        2ms [ 11] ███████████████████████████████
+        4ms [ 10] ████████████████████████████▌
+        6ms [ 11] ███████████████████████████████
+        8ms [ 12] ██████████████████████████████████
+       10ms [ 10] ████████████████████████████▌
+       12ms [ 14] ████████████████████████████████████████
+       14ms [ 11] ███████████████████████████████
+       16ms [ 11] ███████████████████████████████
+       18ms [  3] ████████▌
+
+Create Users and Chatbots:  30  users,  100  chatbots finished
+Create MLS Group:  30  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 30 members   ====================
+  avg 1.3ms;  min 814µs;  p50 1.31ms;  max 1.83ms;
+  p90 1.7ms;  p99 1.83ms;  p999 1.83ms;  p9999 1.83ms;
+      814µs [ 21] ██████████████████████████████████████
+        1ms [ 18] ████████████████████████████████▌
+      1.2ms [ 22] ████████████████████████████████████████
+      1.4ms [ 20] ████████████████████████████████████
+      1.6ms [ 17] ██████████████████████████████▌
+      1.8ms [  2] ███▌
+        2ms [  0] 
+      2.2ms [  0] 
+      2.4ms [  0] 
+      2.6ms [  0] 
+
+Create Users and Chatbots:  30  users,  100  chatbots finished
+Create MLS Group:  30  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 30 members, IGA   ====================
+  avg 257µs;  min 199µs;  p50 242µs;  max 454µs;
+  p90 330µs;  p99 454µs;  p999 454µs;  p9999 454µs;
+      199µs [  1] ▌
+      200µs [ 54] ████████████████████████████████████████
+      250µs [ 30] ██████████████████████
+      300µs [ 10] ███████
+      350µs [  3] ██
+      400µs [  1] ▌
+      450µs [  1] ▌
+      500µs [  0] 
+      550µs [  0] 
+      600µs [  0] 
+
+Create Users and Chatbots:  30  users,  100  chatbots finished
+Create MLS Group:  30  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 30 members, IGA, Pseudo   ====================
+  avg 9.83ms;  min 506µs;  p50 10ms;  max 18.4ms;
+  p90 16.8ms;  p99 18.4ms;  p999 18.4ms;  p9999 18.4ms;
+      506µs [  8] █████████████████████
+        2ms [ 10] ██████████████████████████▌
+        4ms [ 10] ██████████████████████████▌
+        6ms [  9] ████████████████████████
+        8ms [ 13] ██████████████████████████████████▌
+       10ms [ 10] ██████████████████████████▌
+       12ms [ 15] ████████████████████████████████████████
+       14ms [ 11] █████████████████████████████
+       16ms [ 10] ██████████████████████████▌
+       18ms [  4] ██████████▌
+
+Create Users and Chatbots:  35  users,  100  chatbots finished
+Create MLS Group:  35  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 35 members   ====================
+  avg 1.35ms;  min 843µs;  p50 1.35ms;  max 1.9ms;
+  p90 1.75ms;  p99 1.9ms;  p999 1.9ms;  p9999 1.9ms;
+      843µs [ 12] ████████████████████
+        1ms [ 24] ████████████████████████████████████████
+      1.2ms [ 19] ███████████████████████████████▌
+      1.4ms [ 20] █████████████████████████████████
+      1.6ms [ 21] ███████████████████████████████████
+      1.8ms [  4] ██████▌
+        2ms [  0] 
+      2.2ms [  0] 
+      2.4ms [  0] 
+      2.6ms [  0] 
+
+Create Users and Chatbots:  35  users,  100  chatbots finished
+Create MLS Group:  35  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 35 members, IGA   ====================
+  avg 257µs;  min 185µs;  p50 243µs;  max 433µs;
+  p90 345µs;  p99 433µs;  p999 433µs;  p9999 433µs;
+      185µs [  9] ███████
+      200µs [ 49] ████████████████████████████████████████
+      250µs [ 22] █████████████████▌
+      300µs [ 12] █████████▌
+      350µs [  5] ████
+      400µs [  3] ██
+      450µs [  0] 
+      500µs [  0] 
+      550µs [  0] 
+      600µs [  0] 
+
+Create Users and Chatbots:  35  users,  100  chatbots finished
+Create MLS Group:  35  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 35 members, IGA, Pseudo   ====================
+  avg 10ms;  min 524µs;  p50 9.91ms;  max 18.9ms;
+  p90 17.3ms;  p99 18.9ms;  p999 18.9ms;  p9999 18.9ms;
+      524µs [  8] ██████████████████████▌
+        2ms [ 10] ████████████████████████████▌
+        4ms [  9] █████████████████████████▌
+        6ms [ 10] ████████████████████████████▌
+        8ms [ 14] ████████████████████████████████████████
+       10ms [  8] ██████████████████████▌
+       12ms [ 14] ████████████████████████████████████████
+       14ms [ 10] ████████████████████████████▌
+       16ms [ 12] ██████████████████████████████████
+       18ms [  5] ██████████████
+
+Create Users and Chatbots:  40  users,  100  chatbots finished
+Create MLS Group:  40  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 40 members   ====================
+  avg 1.43ms;  min 977µs;  p50 1.43ms;  max 1.97ms;
+  p90 1.84ms;  p99 1.97ms;  p999 1.97ms;  p9999 1.97ms;
+      977µs [  3] █████
+        1ms [ 24] ████████████████████████████████████████
+      1.2ms [ 21] ███████████████████████████████████
+      1.4ms [ 20] █████████████████████████████████
+      1.6ms [ 15] █████████████████████████
+      1.8ms [ 17] ████████████████████████████
+        2ms [  0] 
+      2.2ms [  0] 
+      2.4ms [  0] 
+      2.6ms [  0] 
+
+Create Users and Chatbots:  40  users,  100  chatbots finished
+Create MLS Group:  40  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 40 members, IGA   ====================
+  avg 264µs;  min 191µs;  p50 250µs;  max 426µs;
+  p90 360µs;  p99 426µs;  p999 426µs;  p9999 426µs;
+      191µs [  4] ███
+      200µs [ 46] ████████████████████████████████████████
+      250µs [ 26] ██████████████████████▌
+      300µs [ 11] █████████▌
+      350µs [ 11] █████████▌
+      400µs [  2] █▌
+      450µs [  0] 
+      500µs [  0] 
+      550µs [  0] 
+      600µs [  0] 
+
+Create Users and Chatbots:  40  users,  100  chatbots finished
+Create MLS Group:  40  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 40 members, IGA, Pseudo   ====================
+  avg 9.92ms;  min 652µs;  p50 10.2ms;  max 18.7ms;
+  p90 17ms;  p99 18.7ms;  p999 18.7ms;  p9999 18.7ms;
+      652µs [  7] ████████████████████
+        2ms [ 11] ███████████████████████████████
+        4ms [ 10] ████████████████████████████▌
+        6ms [ 11] ███████████████████████████████
+        8ms [  8] ██████████████████████▌
+       10ms [ 13] █████████████████████████████████████
+       12ms [ 14] ████████████████████████████████████████
+       14ms [ 12] ██████████████████████████████████
+       16ms [ 10] ████████████████████████████▌
+       18ms [  4] ███████████
+
+Create Users and Chatbots:  45  users,  100  chatbots finished
+Create MLS Group:  45  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 45 members   ====================
+  avg 4.2ms;  min 1.11ms;  p50 1.73ms;  max 34.1ms;
+  p90 11.4ms;  p99 34.1ms;  p999 34.1ms;  p9999 34.1ms;
+     1.12ms [ 76] ████████████████████████████████████████
+        5ms [ 13] ██████▌
+       10ms [  7] ███▌
+       15ms [  2] █
+       20ms [  1] ▌
+       25ms [  0] 
+       30ms [  1] ▌
+       35ms [  0] 
+       40ms [  0] 
+       45ms [  0] 
+
+Create Users and Chatbots:  45  users,  100  chatbots finished
+Create MLS Group:  45  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 45 members, IGA   ====================
+  avg 379µs;  min 190µs;  p50 311µs;  max 1.34ms;
+  p90 646µs;  p99 1.34ms;  p999 1.34ms;  p9999 1.34ms;
+      190µs [  1] ▌
+      200µs [ 71] ████████████████████████████████████████
+      400µs [ 17] █████████▌
+      600µs [  7] ███▌
+      800µs [  0] 
+        1ms [  2] █
+      1.2ms [  2] █
+      1.4ms [  0] 
+      1.6ms [  0] 
+      1.8ms [  0] 
+
+Create Users and Chatbots:  45  users,  100  chatbots finished
+Create MLS Group:  45  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 45 members, IGA, Pseudo   ====================
+  avg 10ms;  min 699µs;  p50 10.2ms;  max 19.4ms;
+  p90 17.3ms;  p99 19.4ms;  p999 19.4ms;  p9999 19.4ms;
+      699µs [  8] ████████████████████████▌
+        2ms [ 10] ██████████████████████████████▌
+        4ms [ 10] ██████████████████████████████▌
+        6ms [  8] ████████████████████████▌
+        8ms [ 12] ████████████████████████████████████▌
+       10ms [ 10] ██████████████████████████████▌
+       12ms [ 13] ████████████████████████████████████████
+       14ms [ 13] ████████████████████████████████████████
+       16ms [ 10] ██████████████████████████████▌
+       18ms [  6] ██████████████████
+
+Create Users and Chatbots:  50  users,  100  chatbots finished
+Create MLS Group:  50  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 50 members   ====================
+  avg 1.82ms;  min 1.09ms;  p50 1.79ms;  max 3.46ms;
+  p90 2.52ms;  p99 3.46ms;  p999 3.46ms;  p9999 3.46ms;
+     1.09ms [ 29] ████████████████████████████
+      1.5ms [ 41] ████████████████████████████████████████
+        2ms [ 19] ██████████████████▌
+      2.5ms [  7] ██████▌
+        3ms [  4] ███▌
+      3.5ms [  0] 
+        4ms [  0] 
+      4.5ms [  0] 
+        5ms [  0] 
+      5.5ms [  0] 
+
+Create Users and Chatbots:  50  users,  100  chatbots finished
+Create MLS Group:  50  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 50 members, IGA   ====================
+  avg 285µs;  min 195µs;  p50 265µs;  max 498µs;
+  p90 418µs;  p99 498µs;  p999 498µs;  p9999 498µs;
+      195µs [  1] █
+      200µs [ 40] ████████████████████████████████████████
+      250µs [ 29] █████████████████████████████
+      300µs [ 11] ███████████
+      350µs [  7] ███████
+      400µs [  8] ████████
+      450µs [  4] ████
+      500µs [  0] 
+      550µs [  0] 
+      600µs [  0] 
+
+Create Users and Chatbots:  50  users,  100  chatbots finished
+Create MLS Group:  50  members,  0  chatbots finished
+====================   MLS Chatbot Addition: 50 members, IGA, Pseudo   ====================
+  avg 10.6ms;  min 668µs;  p50 11ms;  max 20.2ms;
+  p90 17.9ms;  p99 20.2ms;  p999 20.2ms;  p9999 20.2ms;
+      668µs [  6] ████████████████
+        2ms [ 10] ██████████████████████████▌
+        4ms [  9] ████████████████████████
+        6ms [ 10] ██████████████████████████▌
+        8ms [  6] ████████████████
+       10ms [ 13] ██████████████████████████████████▌
+       12ms [ 15] ████████████████████████████████████████
+       14ms [ 10] ██████████████████████████▌
+       16ms [ 12] ████████████████████████████████
+       18ms+[  9] ████████████████████████
+
+--- PASS: TestBenchmarkMlsChatbotAdditionSingleUser (206.16s)
+PASS
+ok  	chatbot-poc-go/pkg/benchmark	206.838s

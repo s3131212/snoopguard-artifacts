@@ -1,0 +1,900 @@
+=== RUN   TestBenchmarkUserGenerateServerSideGroupMessageWithoutHideTrigger
+Create Users and Chatbots:  50  users,  1  chatbots finished
+Create Server Side Group:  50  members,  1  chatbots finished
+====================   Generate Server Side Group Message: 50 members, 1 chatbot   ====================
+  avg 124µs;  min 57.1µs;  p50 70.5µs;  max 51.1ms;
+  p90 95.5µs;  p99 114µs;  p999 51.1ms;  p9999 51.1ms;
+     57.2µs [999] ████████████████████████████████████████
+       10ms [  0] 
+       20ms [  0] 
+       30ms [  0] 
+       40ms [  0] 
+       50ms [  1] 
+       60ms [  0] 
+       70ms [  0] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  5  chatbots finished
+Create Server Side Group:  50  members,  5  chatbots finished
+====================   Generate Server Side Group Message: 50 members, 5 chatbots   ====================
+  avg 156µs;  min 75.2µs;  p50 98.1µs;  max 51.1ms;
+  p90 138µs;  p99 237µs;  p999 51.1ms;  p9999 51.1ms;
+     75.2µs [999] ████████████████████████████████████████
+       10ms [  0] 
+       20ms [  0] 
+       30ms [  0] 
+       40ms [  0] 
+       50ms [  1] 
+       60ms [  0] 
+       70ms [  0] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  10  chatbots finished
+Create Server Side Group:  50  members,  10  chatbots finished
+====================   Generate Server Side Group Message: 50 members, 10 chatbots   ====================
+  avg 211µs;  min 110µs;  p50 128µs;  max 69.3ms;
+  p90 189µs;  p99 266µs;  p999 69.3ms;  p9999 69.3ms;
+      111µs [999] ████████████████████████████████████████
+       10ms [  0] 
+       20ms [  0] 
+       30ms [  0] 
+       40ms [  0] 
+       50ms [  0] 
+       60ms [  1] 
+       70ms [  0] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  15  chatbots finished
+Create Server Side Group:  50  members,  15  chatbots finished
+====================   Generate Server Side Group Message: 50 members, 15 chatbots   ====================
+  avg 255µs;  min 151µs;  p50 176µs;  max 52.3ms;
+  p90 249µs;  p99 306µs;  p999 52.3ms;  p9999 52.3ms;
+      152µs [998] ████████████████████████████████████████
+       10ms [  1] 
+       20ms [  0] 
+       30ms [  0] 
+       40ms [  0] 
+       50ms [  1] 
+       60ms [  0] 
+       70ms [  0] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  20  chatbots finished
+Create Server Side Group:  50  members,  20  chatbots finished
+====================   Generate Server Side Group Message: 50 members, 20 chatbots   ====================
+  avg 338µs;  min 210µs;  p50 236µs;  max 53.8ms;
+  p90 317µs;  p99 501µs;  p999 53.8ms;  p9999 53.8ms;
+      211µs [997] ████████████████████████████████████████
+       10ms [  2] 
+       20ms [  0] 
+       30ms [  0] 
+       40ms [  0] 
+       50ms [  1] 
+       60ms [  0] 
+       70ms [  0] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  25  chatbots finished
+Create Server Side Group:  50  members,  25  chatbots finished
+====================   Generate Server Side Group Message: 50 members, 25 chatbots   ====================
+  avg 1.02ms;  min 273µs;  p50 320µs;  max 98ms;
+  p90 576µs;  p99 10.2ms;  p999 98ms;  p9999 98ms;
+      274µs [990] ████████████████████████████████████████
+       10ms [  2] 
+       20ms [  0] 
+       30ms [  1] 
+       40ms [  0] 
+       50ms [  1] 
+       60ms [  0] 
+       70ms [  1] 
+       80ms [  2] 
+       90ms [  3] 
+
+Create Users and Chatbots:  50  users,  30  chatbots finished
+Create Server Side Group:  50  members,  30  chatbots finished
+====================   Generate Server Side Group Message: 50 members, 30 chatbots   ====================
+  avg 509µs;  min 349µs;  p50 405µs;  max 22.4ms;
+  p90 600µs;  p99 804µs;  p999 22.4ms;  p9999 22.4ms;
+      349µs [996] ████████████████████████████████████████
+        5ms [  0] 
+       10ms [  2] 
+       15ms [  1] 
+       20ms [  1] 
+       25ms [  0] 
+       30ms [  0] 
+       35ms [  0] 
+       40ms [  0] 
+       45ms [  0] 
+
+Create Users and Chatbots:  50  users,  35  chatbots finished
+Create Server Side Group:  50  members,  35  chatbots finished
+====================   Generate Server Side Group Message: 50 members, 35 chatbots   ====================
+  avg 1.78ms;  min 443µs;  p50 529µs;  max 106ms;
+  p90 1.01ms;  p99 74.5ms;  p999 106ms;  p9999 106ms;
+      444µs [987] ████████████████████████████████████████
+       20ms [  0] 
+       40ms [  1] 
+       60ms [  4] 
+       80ms [  7] 
+      100ms [  1] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  0] 
+      180ms [  0] 
+
+Create Users and Chatbots:  50  users,  40  chatbots finished
+Create Server Side Group:  50  members,  40  chatbots finished
+====================   Generate Server Side Group Message: 50 members, 40 chatbots   ====================
+  avg 735µs;  min 553µs;  p50 618µs;  max 20.8ms;
+  p90 826µs;  p99 1.42ms;  p999 20.8ms;  p9999 20.8ms;
+      553µs [995] ████████████████████████████████████████
+        5ms [  2] 
+       10ms [  1] 
+       15ms [  1] 
+       20ms [  1] 
+       25ms [  0] 
+       30ms [  0] 
+       35ms [  0] 
+       40ms [  0] 
+       45ms [  0] 
+
+Create Users and Chatbots:  50  users,  45  chatbots finished
+Create Server Side Group:  50  members,  45  chatbots finished
+====================   Generate Server Side Group Message: 50 members, 45 chatbots   ====================
+  avg 977µs;  min 666µs;  p50 738µs;  max 74.1ms;
+  p90 1ms;  p99 5.91ms;  p999 74.1ms;  p9999 74.1ms;
+      667µs [992] ████████████████████████████████████████
+       10ms [  7] 
+       20ms [  0] 
+       30ms [  0] 
+       40ms [  0] 
+       50ms [  0] 
+       60ms [  0] 
+       70ms [  1] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  50  chatbots finished
+Create Server Side Group:  50  members,  50  chatbots finished
+====================   Generate Server Side Group Message: 50 members, 50 chatbots   ====================
+  avg 3.18ms;  min 800µs;  p50 899µs;  max 188ms;
+  p90 1.74ms;  p99 93.7ms;  p999 188ms;  p9999 188ms;
+      800µs [979] ████████████████████████████████████████
+       20ms [  0] 
+       40ms [  1] 
+       60ms [  2] 
+       80ms [ 13] ▌
+      100ms [  4] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  0] 
+      180ms [  1] 
+
+--- PASS: TestBenchmarkUserGenerateServerSideGroupMessageWithoutHideTrigger (155.97s)
+PASS
+ok  	chatbot-poc-go/pkg/benchmark	155.991s
+=== RUN   TestBenchmarkUserGenerateServerSideIGAGroupMessageWithoutHideTrigger
+Create Users and Chatbots:  50  users,  1  chatbots finished
+Create Server Side Group:  50  members,  1  chatbots finished
+====================   Generate Server Side IGA Group Message: 50 members, 1 chatbot   ====================
+  avg 977µs;  min 763µs;  p50 800µs;  max 47.9ms;
+  p90 902µs;  p99 1.86ms;  p999 47.9ms;  p9999 47.9ms;
+      764µs [992] ████████████████████████████████████████
+        5ms [  1] 
+       10ms [  4] 
+       15ms [  0] 
+       20ms [  1] 
+       25ms [  1] 
+       30ms [  0] 
+       35ms [  0] 
+       40ms [  0] 
+       45ms [  1] 
+
+Create Users and Chatbots:  50  users,  5  chatbots finished
+Create Server Side Group:  50  members,  5  chatbots finished
+====================   Generate Server Side IGA Group Message: 50 members, 5 chatbots   ====================
+  avg 1.52ms;  min 1.13ms;  p50 1.19ms;  max 66.3ms;
+  p90 1.36ms;  p99 11.3ms;  p999 66.3ms;  p9999 66.3ms;
+     1.14ms [988] ████████████████████████████████████████
+       10ms [  9] 
+       20ms [  0] 
+       30ms [  0] 
+       40ms [  1] 
+       50ms [  0] 
+       60ms [  2] 
+       70ms [  0] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  10  chatbots finished
+Create Server Side Group:  50  members,  10  chatbots finished
+====================   Generate Server Side IGA Group Message: 50 members, 10 chatbots   ====================
+  avg 2.45ms;  min 1.72ms;  p50 1.79ms;  max 100ms;
+  p90 2.12ms;  p99 16.9ms;  p999 100ms;  p9999 100ms;
+     1.73ms [983] ████████████████████████████████████████
+       10ms [ 10] 
+       20ms [  2] 
+       30ms [  0] 
+       40ms [  0] 
+       50ms [  1] 
+       60ms [  2] 
+       70ms [  0] 
+       80ms [  0] 
+       90ms+[  2] 
+
+Create Users and Chatbots:  50  users,  15  chatbots finished
+Create Server Side Group:  50  members,  15  chatbots finished
+====================   Generate Server Side IGA Group Message: 50 members, 15 chatbots   ====================
+  avg 3.43ms;  min 2.41ms;  p50 2.53ms;  max 101ms;
+  p90 2.82ms;  p99 18.6ms;  p999 101ms;  p9999 101ms;
+     2.41ms [971] ████████████████████████████████████████
+       10ms [ 22] ▌
+       20ms [  1] 
+       30ms [  1] 
+       40ms [  0] 
+       50ms [  0] 
+       60ms [  0] 
+       70ms [  0] 
+       80ms [  2] 
+       90ms+[  3] 
+
+Create Users and Chatbots:  50  users,  20  chatbots finished
+Create Server Side Group:  50  members,  20  chatbots finished
+====================   Generate Server Side IGA Group Message: 50 members, 20 chatbots   ====================
+  avg 4.68ms;  min 3.28ms;  p50 3.39ms;  max 202ms;
+  p90 3.83ms;  p99 26.3ms;  p999 202ms;  p9999 202ms;
+     3.29ms [987] ████████████████████████████████████████
+       20ms [  4] 
+       40ms [  1] 
+       60ms [  3] 
+       80ms [  3] 
+      100ms [  1] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  0] 
+      180ms+[  1] 
+
+Create Users and Chatbots:  50  users,  25  chatbots finished
+Create Server Side Group:  50  members,  25  chatbots finished
+====================   Generate Server Side IGA Group Message: 50 members, 25 chatbots   ====================
+  avg 6.51ms;  min 4.28ms;  p50 4.41ms;  max 194ms;
+  p90 5.7ms;  p99 92.8ms;  p999 194ms;  p9999 194ms;
+     4.29ms [978] ████████████████████████████████████████
+       20ms [  8] 
+       40ms [  1] 
+       60ms [  2] 
+       80ms [  3] 
+      100ms [  6] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  0] 
+      180ms [  2] 
+
+Create Users and Chatbots:  50  users,  30  chatbots finished
+Create Server Side Group:  50  members,  30  chatbots finished
+====================   Generate Server Side IGA Group Message: 50 members, 30 chatbots   ====================
+  avg 8.08ms;  min 5.38ms;  p50 5.53ms;  max 194ms;
+  p90 7.2ms;  p99 102ms;  p999 194ms;  p9999 194ms;
+     5.39ms [973] ████████████████████████████████████████
+       20ms [ 10] 
+       40ms [  2] 
+       60ms [  2] 
+       80ms [  3] 
+      100ms [  7] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  0] 
+      180ms [  3] 
+
+Create Users and Chatbots:  50  users,  35  chatbots finished
+Create Server Side Group:  50  members,  35  chatbots finished
+====================   Generate Server Side IGA Group Message: 50 members, 35 chatbots   ====================
+  avg 10ms;  min 6.67ms;  p50 6.82ms;  max 297ms;
+  p90 10.6ms;  p99 98.2ms;  p999 297ms;  p9999 297ms;
+     6.67ms [982] ████████████████████████████████████████
+       50ms [  9] 
+      100ms [  2] 
+      150ms [  3] 
+      200ms [  3] 
+      250ms [  1] 
+      300ms [  0] 
+      350ms [  0] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  40  chatbots finished
+Create Server Side Group:  50  members,  40  chatbots finished
+====================   Generate Server Side IGA Group Message: 50 members, 40 chatbots   ====================
+  avg 13.2ms;  min 8.04ms;  p50 8.28ms;  max 307ms;
+  p90 16.6ms;  p99 202ms;  p999 307ms;  p9999 307ms;
+     8.05ms [979] ████████████████████████████████████████
+       50ms [  4] 
+      100ms [  5] 
+      150ms [  2] 
+      200ms [  4] 
+      250ms [  3] 
+      300ms [  3] 
+      350ms [  0] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  45  chatbots finished
+Create Server Side Group:  50  members,  45  chatbots finished
+====================   Generate Server Side IGA Group Message: 50 members, 45 chatbots   ====================
+  avg 15.4ms;  min 9.61ms;  p50 9.84ms;  max 315ms;
+  p90 19.9ms;  p99 206ms;  p999 315ms;  p9999 315ms;
+     9.61ms [977] ████████████████████████████████████████
+       50ms [  5] 
+      100ms [  3] 
+      150ms [  1] 
+      200ms [  7] 
+      250ms [  4] 
+      300ms [  3] 
+      350ms [  0] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  50  chatbots finished
+Create Server Side Group:  50  members,  50  chatbots finished
+====================   Generate Server Side IGA Group Message: 50 members, 50 chatbots   ====================
+  avg 19.4ms;  min 11.3ms;  p50 11.5ms;  max 602ms;
+  p90 21.8ms;  p99 300ms;  p999 602ms;  p9999 602ms;
+     11.3ms [979] ████████████████████████████████████████
+      100ms [  3] 
+      200ms [  8] 
+      300ms [  8] 
+      400ms [  1] 
+      500ms [  0] 
+      600ms [  1] 
+      700ms [  0] 
+      800ms [  0] 
+      900ms [  0] 
+
+--- PASS: TestBenchmarkUserGenerateServerSideIGAGroupMessageWithoutHideTrigger (187.83s)
+PASS
+ok  	chatbot-poc-go/pkg/benchmark	187.846s
+=== RUN   TestBenchmarkUserGenerateServerSidePseudoGroupMessageWithoutHideTrigger
+Create Users and Chatbots:  50  users,  1  chatbots finished
+Create Server Side Group:  50  members,  1  chatbots finished
+====================   Generate Server Side Pseudo Group Message: 50 members, 1 chatbot   ====================
+  avg 1.01ms;  min 793µs;  p50 828µs;  max 44.6ms;
+  p90 910µs;  p99 7.3ms;  p999 44.6ms;  p9999 44.6ms;
+      793µs [990] ████████████████████████████████████████
+        5ms [  2] 
+       10ms [  5] 
+       15ms [  2] 
+       20ms [  0] 
+       25ms [  0] 
+       30ms [  0] 
+       35ms [  0] 
+       40ms [  1] 
+       45ms [  0] 
+
+Create Users and Chatbots:  50  users,  5  chatbots finished
+Create Server Side Group:  50  members,  5  chatbots finished
+====================   Generate Server Side Pseudo Group Message: 50 members, 5 chatbots   ====================
+  avg 1.71ms;  min 1.28ms;  p50 1.33ms;  max 71.8ms;
+  p90 1.45ms;  p99 11.5ms;  p999 71.8ms;  p9999 71.8ms;
+     1.28ms [987] ████████████████████████████████████████
+       10ms [  9] 
+       20ms [  1] 
+       30ms [  0] 
+       40ms [  0] 
+       50ms [  2] 
+       60ms [  0] 
+       70ms [  1] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  10  chatbots finished
+Create Server Side Group:  50  members,  10  chatbots finished
+====================   Generate Server Side Pseudo Group Message: 50 members, 10 chatbots   ====================
+  avg 2.8ms;  min 2.01ms;  p50 2.08ms;  max 91.4ms;
+  p90 2.34ms;  p99 16.2ms;  p999 91.4ms;  p9999 91.4ms;
+     2.02ms [980] ████████████████████████████████████████
+       10ms [ 13] ▌
+       20ms [  1] 
+       30ms [  1] 
+       40ms [  0] 
+       50ms [  1] 
+       60ms [  1] 
+       70ms [  1] 
+       80ms [  1] 
+       90ms [  1] 
+
+Create Users and Chatbots:  50  users,  15  chatbots finished
+Create Server Side Group:  50  members,  15  chatbots finished
+====================   Generate Server Side Pseudo Group Message: 50 members, 15 chatbots   ====================
+  avg 3.69ms;  min 2.87ms;  p50 2.95ms;  max 94.7ms;
+  p90 3.1ms;  p99 14.1ms;  p999 94.7ms;  p9999 94.7ms;
+     2.88ms [968] ████████████████████████████████████████
+       10ms [ 26] █
+       20ms [  1] 
+       30ms [  1] 
+       40ms [  0] 
+       50ms [  0] 
+       60ms [  1] 
+       70ms [  0] 
+       80ms [  2] 
+       90ms [  1] 
+
+Create Users and Chatbots:  50  users,  20  chatbots finished
+Create Server Side Group:  50  members,  20  chatbots finished
+====================   Generate Server Side Pseudo Group Message: 50 members, 20 chatbots   ====================
+  avg 5.33ms;  min 3.86ms;  p50 3.96ms;  max 186ms;
+  p90 4.43ms;  p99 27.3ms;  p999 186ms;  p9999 186ms;
+     3.86ms [986] ████████████████████████████████████████
+       20ms [  5] 
+       40ms [  2] 
+       60ms [  2] 
+       80ms [  1] 
+      100ms [  3] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  0] 
+      180ms [  1] 
+
+Create Users and Chatbots:  50  users,  25  chatbots finished
+Create Server Side Group:  50  members,  25  chatbots finished
+====================   Generate Server Side Pseudo Group Message: 50 members, 25 chatbots   ====================
+  avg 7.52ms;  min 4.99ms;  p50 5.15ms;  max 201ms;
+  p90 6.63ms;  p99 94.5ms;  p999 201ms;  p9999 201ms;
+        5ms [976] ████████████████████████████████████████
+       20ms [  9] 
+       40ms [  1] 
+       60ms [  2] 
+       80ms [  4] 
+      100ms [  5] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  0] 
+      180ms+[  3] 
+
+Create Users and Chatbots:  50  users,  30  chatbots finished
+Create Server Side Group:  50  members,  30  chatbots finished
+====================   Generate Server Side Pseudo Group Message: 50 members, 30 chatbots   ====================
+  avg 9.35ms;  min 6.28ms;  p50 6.47ms;  max 208ms;
+  p90 9.21ms;  p99 91.6ms;  p999 208ms;  p9999 208ms;
+     6.29ms [984] ████████████████████████████████████████
+       50ms [  8] 
+      100ms [  3] 
+      150ms [  2] 
+      200ms [  3] 
+      250ms [  0] 
+      300ms [  0] 
+      350ms [  0] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  35  chatbots finished
+Create Server Side Group:  50  members,  35  chatbots finished
+====================   Generate Server Side Pseudo Group Message: 50 members, 35 chatbots   ====================
+  avg 12.5ms;  min 7.74ms;  p50 7.96ms;  max 303ms;
+  p90 14.9ms;  p99 180ms;  p999 303ms;  p9999 303ms;
+     7.75ms [975] ████████████████████████████████████████
+       50ms [ 11] 
+      100ms [  4] 
+      150ms [  3] 
+      200ms [  2] 
+      250ms [  2] 
+      300ms [  3] 
+      350ms [  0] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  40  chatbots finished
+Create Server Side Group:  50  members,  40  chatbots finished
+====================   Generate Server Side Pseudo Group Message: 50 members, 40 chatbots   ====================
+  avg 15.5ms;  min 9.34ms;  p50 9.67ms;  max 493ms;
+  p90 19.7ms;  p99 216ms;  p999 493ms;  p9999 493ms;
+     9.34ms [976] ████████████████████████████████████████
+       50ms [  9] 
+      100ms [  1] 
+      150ms [  0] 
+      200ms [  5] 
+      250ms [  3] 
+      300ms [  4] 
+      350ms [  1] 
+      400ms [  0] 
+      450ms [  1] 
+
+Create Users and Chatbots:  50  users,  45  chatbots finished
+Create Server Side Group:  50  members,  45  chatbots finished
+====================   Generate Server Side Pseudo Group Message: 50 members, 45 chatbots   ====================
+  avg 18.2ms;  min 10.9ms;  p50 11.3ms;  max 606ms;
+  p90 21.5ms;  p99 295ms;  p999 606ms;  p9999 606ms;
+       11ms [982] ████████████████████████████████████████
+      100ms [  4] 
+      200ms [  6] 
+      300ms [  6] 
+      400ms [  1] 
+      500ms [  0] 
+      600ms [  1] 
+      700ms [  0] 
+      800ms [  0] 
+      900ms [  0] 
+
+Create Users and Chatbots:  50  users,  50  chatbots finished
+Create Server Side Group:  50  members,  50  chatbots finished
+====================   Generate Server Side Pseudo Group Message: 50 members, 50 chatbots   ====================
+  avg 21.6ms;  min 12.8ms;  p50 13.2ms;  max 691ms;
+  p90 23.6ms;  p99 304ms;  p999 691ms;  p9999 691ms;
+     12.9ms [981] ████████████████████████████████████████
+      100ms [  4] 
+      200ms [  3] 
+      300ms [  6] 
+      400ms [  3] 
+      500ms [  2] 
+      600ms [  1] 
+      700ms [  0] 
+      800ms [  0] 
+      900ms [  0] 
+
+--- PASS: TestBenchmarkUserGenerateServerSidePseudoGroupMessageWithoutHideTrigger (821.68s)
+PASS
+ok  	chatbot-poc-go/pkg/benchmark	821.832s
+=== RUN   TestBenchmarkUserGenerateServerSideIGAGroupMessageWithHideTrigger
+Create Users and Chatbots:  50  users,  1  chatbots finished
+Create Server Side Group:  50  members,  1  chatbots finished
+====================   Generate Server Side IGA Group Message with Hide Trigger: 50 members, 1 chatbot   ====================
+  avg 984µs;  min 762µs;  p50 801µs;  max 54.8ms;
+  p90 955µs;  p99 2.17ms;  p999 54.8ms;  p9999 54.8ms;
+      763µs [994] ████████████████████████████████████████
+       10ms [  4] 
+       20ms [  1] 
+       30ms [  0] 
+       40ms [  0] 
+       50ms [  1] 
+       60ms [  0] 
+       70ms [  0] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  5  chatbots finished
+Create Server Side Group:  50  members,  5  chatbots finished
+====================   Generate Server Side IGA Group Message with Hide Trigger: 50 members, 5 chatbots   ====================
+  avg 1.52ms;  min 1.13ms;  p50 1.19ms;  max 88.2ms;
+  p90 1.4ms;  p99 11.3ms;  p999 88.2ms;  p9999 88.2ms;
+     1.14ms [988] ████████████████████████████████████████
+       10ms [  9] 
+       20ms [  0] 
+       30ms [  1] 
+       40ms [  1] 
+       50ms [  0] 
+       60ms [  0] 
+       70ms [  0] 
+       80ms [  1] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  10  chatbots finished
+Create Server Side Group:  50  members,  10  chatbots finished
+====================   Generate Server Side IGA Group Message with Hide Trigger: 50 members, 10 chatbots   ====================
+  avg 2.48ms;  min 1.73ms;  p50 1.8ms;  max 97.9ms;
+  p90 2.31ms;  p99 13.8ms;  p999 97.9ms;  p9999 97.9ms;
+     1.73ms [979] ████████████████████████████████████████
+       10ms [ 15] ▌
+       20ms [  0] 
+       30ms [  0] 
+       40ms [  1] 
+       50ms [  1] 
+       60ms [  2] 
+       70ms [  0] 
+       80ms [  0] 
+       90ms [  2] 
+
+Create Users and Chatbots:  50  users,  15  chatbots finished
+Create Server Side Group:  50  members,  15  chatbots finished
+====================   Generate Server Side IGA Group Message with Hide Trigger: 50 members, 15 chatbots   ====================
+  avg 3.49ms;  min 2.43ms;  p50 2.53ms;  max 100ms;
+  p90 3.13ms;  p99 19.9ms;  p999 100ms;  p9999 100ms;
+     2.44ms [970] ████████████████████████████████████████
+       10ms [ 21] ▌
+       20ms [  1] 
+       30ms [  2] 
+       40ms [  0] 
+       50ms [  2] 
+       60ms [  0] 
+       70ms [  0] 
+       80ms [  1] 
+       90ms+[  3] 
+
+Create Users and Chatbots:  50  users,  20  chatbots finished
+Create Server Side Group:  50  members,  20  chatbots finished
+====================   Generate Server Side IGA Group Message with Hide Trigger: 50 members, 20 chatbots   ====================
+  avg 4.68ms;  min 3.27ms;  p50 3.4ms;  max 109ms;
+  p90 3.87ms;  p99 43.2ms;  p999 109ms;  p9999 109ms;
+     3.28ms [988] ████████████████████████████████████████
+       20ms [  2] 
+       40ms [  4] 
+       60ms [  0] 
+       80ms [  4] 
+      100ms [  2] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  0] 
+      180ms [  0] 
+
+Create Users and Chatbots:  50  users,  25  chatbots finished
+Create Server Side Group:  50  members,  25  chatbots finished
+====================   Generate Server Side IGA Group Message with Hide Trigger: 50 members, 25 chatbots   ====================
+  avg 6.88ms;  min 4.29ms;  p50 4.47ms;  max 192ms;
+  p90 6.38ms;  p99 97.1ms;  p999 192ms;  p9999 192ms;
+     4.29ms [978] ████████████████████████████████████████
+       20ms [  5] 
+       40ms [  3] 
+       60ms [  2] 
+       80ms [  3] 
+      100ms [  6] 
+      120ms [  1] 
+      140ms [  0] 
+      160ms [  0] 
+      180ms [  2] 
+
+Create Users and Chatbots:  50  users,  30  chatbots finished
+Create Server Side Group:  50  members,  30  chatbots finished
+====================   Generate Server Side IGA Group Message with Hide Trigger: 50 members, 30 chatbots   ====================
+  avg 8.44ms;  min 5.38ms;  p50 5.56ms;  max 207ms;
+  p90 7.98ms;  p99 101ms;  p999 207ms;  p9999 207ms;
+     5.38ms [984] ████████████████████████████████████████
+       50ms [  5] 
+      100ms [  6] 
+      150ms [  4] 
+      200ms [  1] 
+      250ms [  0] 
+      300ms [  0] 
+      350ms [  0] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  35  chatbots finished
+Create Server Side Group:  50  members,  35  chatbots finished
+====================   Generate Server Side IGA Group Message with Hide Trigger: 50 members, 35 chatbots   ====================
+  avg 10.5ms;  min 6.64ms;  p50 6.85ms;  max 307ms;
+  p90 11.8ms;  p99 102ms;  p999 307ms;  p9999 307ms;
+     6.65ms [983] ████████████████████████████████████████
+       50ms [  7] 
+      100ms [  1] 
+      150ms [  2] 
+      200ms [  4] 
+      250ms [  2] 
+      300ms [  1] 
+      350ms [  0] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  40  chatbots finished
+Create Server Side Group:  50  members,  40  chatbots finished
+====================   Generate Server Side IGA Group Message with Hide Trigger: 50 members, 40 chatbots   ====================
+  avg 13.2ms;  min 8.05ms;  p50 8.28ms;  max 396ms;
+  p90 16.8ms;  p99 195ms;  p999 396ms;  p9999 396ms;
+     8.06ms [974] ████████████████████████████████████████
+       50ms [  9] 
+      100ms [  5] 
+      150ms [  4] 
+      200ms [  6] 
+      250ms [  1] 
+      300ms [  0] 
+      350ms [  1] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  45  chatbots finished
+Create Server Side Group:  50  members,  45  chatbots finished
+====================   Generate Server Side IGA Group Message with Hide Trigger: 50 members, 45 chatbots   ====================
+  avg 15.7ms;  min 9.64ms;  p50 9.83ms;  max 394ms;
+  p90 19.1ms;  p99 210ms;  p999 394ms;  p9999 394ms;
+     9.65ms [975] ████████████████████████████████████████
+       50ms [  6] 
+      100ms [  5] 
+      150ms [  3] 
+      200ms [  4] 
+      250ms [  1] 
+      300ms [  3] 
+      350ms [  3] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  50  chatbots finished
+Create Server Side Group:  50  members,  50  chatbots finished
+====================   Generate Server Side IGA Group Message with Hide Trigger: 50 members, 50 chatbots   ====================
+  avg 19.1ms;  min 11.3ms;  p50 11.5ms;  max 409ms;
+  p90 21.8ms;  p99 296ms;  p999 409ms;  p9999 409ms;
+     11.4ms [969] ████████████████████████████████████████
+       50ms [  9] 
+      100ms [  3] 
+      150ms [  1] 
+      200ms [  7] 
+      250ms [  4] 
+      300ms [  3] 
+      350ms [  1] 
+      400ms [  3] 
+      450ms [  0] 
+
+--- PASS: TestBenchmarkUserGenerateServerSideIGAGroupMessageWithHideTrigger (189.25s)
+PASS
+ok  	chatbot-poc-go/pkg/benchmark	189.297s
+=== RUN   TestBenchmarkUserGenerateServerSidePseudoGroupMessageWithHideTrigger
+Create Users and Chatbots:  50  users,  1  chatbots finished
+Create Server Side Group:  50  members,  1  chatbots finished
+====================   Generate Server Side Pseudo Group Message with Hide Trigger: 50 members, 1 chatbot   ====================
+  avg 1.04ms;  min 798µs;  p50 829µs;  max 64.2ms;
+  p90 930µs;  p99 4.43ms;  p999 64.2ms;  p9999 64.2ms;
+      798µs [993] ████████████████████████████████████████
+       10ms [  5] 
+       20ms [  1] 
+       30ms [  0] 
+       40ms [  0] 
+       50ms [  0] 
+       60ms [  1] 
+       70ms [  0] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  5  chatbots finished
+Create Server Side Group:  50  members,  5  chatbots finished
+====================   Generate Server Side Pseudo Group Message with Hide Trigger: 50 members, 5 chatbots   ====================
+  avg 1.72ms;  min 1.28ms;  p50 1.34ms;  max 74.8ms;
+  p90 1.48ms;  p99 11.5ms;  p999 74.8ms;  p9999 74.8ms;
+     1.29ms [986] ████████████████████████████████████████
+       10ms [ 11] 
+       20ms [  0] 
+       30ms [  0] 
+       40ms [  1] 
+       50ms [  0] 
+       60ms [  0] 
+       70ms [  2] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  10  chatbots finished
+Create Server Side Group:  50  members,  10  chatbots finished
+====================   Generate Server Side Pseudo Group Message with Hide Trigger: 50 members, 10 chatbots   ====================
+  avg 2.6ms;  min 2.01ms;  p50 2.1ms;  max 82.7ms;
+  p90 2.28ms;  p99 18.7ms;  p999 82.7ms;  p9999 82.7ms;
+     2.02ms [981] ████████████████████████████████████████
+       10ms [ 12] 
+       20ms [  5] 
+       30ms [  0] 
+       40ms [  0] 
+       50ms [  0] 
+       60ms [  1] 
+       70ms [  0] 
+       80ms [  1] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  15  chatbots finished
+Create Server Side Group:  50  members,  15  chatbots finished
+====================   Generate Server Side Pseudo Group Message with Hide Trigger: 50 members, 15 chatbots   ====================
+  avg 3.98ms;  min 2.86ms;  p50 2.96ms;  max 96.5ms;
+  p90 3.43ms;  p99 21.3ms;  p999 96.5ms;  p9999 96.5ms;
+     2.87ms [967] ████████████████████████████████████████
+       10ms [ 23] ▌
+       20ms [  2] 
+       30ms [  0] 
+       40ms [  1] 
+       50ms [  2] 
+       60ms [  1] 
+       70ms [  0] 
+       80ms [  1] 
+       90ms [  3] 
+
+Create Users and Chatbots:  50  users,  20  chatbots finished
+Create Server Side Group:  50  members,  20  chatbots finished
+====================   Generate Server Side Pseudo Group Message with Hide Trigger: 50 members, 20 chatbots   ====================
+  avg 5.4ms;  min 3.87ms;  p50 3.98ms;  max 184ms;
+  p90 4.37ms;  p99 23.1ms;  p999 184ms;  p9999 184ms;
+     3.88ms [989] ████████████████████████████████████████
+       20ms [  2] 
+       40ms [  0] 
+       60ms [  3] 
+       80ms [  3] 
+      100ms [  2] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  0] 
+      180ms [  1] 
+
+Create Users and Chatbots:  50  users,  25  chatbots finished
+Create Server Side Group:  50  members,  25  chatbots finished
+====================   Generate Server Side Pseudo Group Message with Hide Trigger: 50 members, 25 chatbots   ====================
+  avg 7.38ms;  min 5ms;  p50 5.15ms;  max 203ms;
+  p90 5.99ms;  p99 93.8ms;  p999 203ms;  p9999 203ms;
+     5.01ms [978] ████████████████████████████████████████
+       20ms [  8] 
+       40ms [  0] 
+       60ms [  2] 
+       80ms [  3] 
+      100ms [  7] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  0] 
+      180ms+[  2] 
+
+Create Users and Chatbots:  50  users,  30  chatbots finished
+Create Server Side Group:  50  members,  30  chatbots finished
+====================   Generate Server Side Pseudo Group Message with Hide Trigger: 50 members, 30 chatbots   ====================
+  avg 9.34ms;  min 6.3ms;  p50 6.53ms;  max 204ms;
+  p90 9.18ms;  p99 102ms;  p999 204ms;  p9999 204ms;
+     6.31ms [963] ████████████████████████████████████████
+       20ms [ 20] ▌
+       40ms [  2] 
+       60ms [  2] 
+       80ms [  2] 
+      100ms [  6] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  1] 
+      180ms+[  4] 
+
+Create Users and Chatbots:  50  users,  35  chatbots finished
+Create Server Side Group:  50  members,  35  chatbots finished
+====================   Generate Server Side Pseudo Group Message with Hide Trigger: 50 members, 35 chatbots   ====================
+  avg 12.2ms;  min 7.78ms;  p50 8.08ms;  max 389ms;
+  p90 13.3ms;  p99 112ms;  p999 389ms;  p9999 389ms;
+     7.78ms [983] ████████████████████████████████████████
+       50ms [  5] 
+      100ms [  5] 
+      150ms [  0] 
+      200ms [  2] 
+      250ms [  1] 
+      300ms [  2] 
+      350ms [  2] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  40  chatbots finished
+Create Server Side Group:  50  members,  40  chatbots finished
+====================   Generate Server Side Pseudo Group Message with Hide Trigger: 50 members, 40 chatbots   ====================
+  avg 16ms;  min 9.35ms;  p50 9.85ms;  max 406ms;
+  p90 19.7ms;  p99 208ms;  p999 406ms;  p9999 406ms;
+     9.35ms [976] ████████████████████████████████████████
+       50ms [  7] 
+      100ms [  2] 
+      150ms [  3] 
+      200ms [  4] 
+      250ms [  2] 
+      300ms [  4] 
+      350ms [  1] 
+      400ms [  1] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  45  chatbots finished
+Create Server Side Group:  50  members,  45  chatbots finished
+====================   Generate Server Side Pseudo Group Message with Hide Trigger: 50 members, 45 chatbots   ====================
+  avg 19.1ms;  min 11ms;  p50 11.5ms;  max 688ms;
+  p90 21.6ms;  p99 299ms;  p999 688ms;  p9999 688ms;
+     11.1ms [983] ████████████████████████████████████████
+      100ms [  5] 
+      200ms [  3] 
+      300ms [  4] 
+      400ms [  3] 
+      500ms [  1] 
+      600ms [  1] 
+      700ms [  0] 
+      800ms [  0] 
+      900ms [  0] 
+
+Create Users and Chatbots:  50  users,  50  chatbots finished
+Create Server Side Group:  50  members,  50  chatbots finished
+====================   Generate Server Side Pseudo Group Message with Hide Trigger: 50 members, 50 chatbots   ====================
+  avg 25.8ms;  min 12.8ms;  p50 14ms;  max 894ms;
+  p90 24.8ms;  p99 493ms;  p999 894ms;  p9999 894ms;
+     12.9ms [977] ████████████████████████████████████████
+      100ms [  4] 
+      200ms [  5] 
+      300ms [  2] 
+      400ms [  5] 
+      500ms [  1] 
+      600ms [  2] 
+      700ms [  2] 
+      800ms [  2] 
+      900ms [  0] 
+
+--- PASS: TestBenchmarkUserGenerateServerSidePseudoGroupMessageWithHideTrigger (851.31s)
+PASS
+ok  	chatbot-poc-go/pkg/benchmark	851.413s

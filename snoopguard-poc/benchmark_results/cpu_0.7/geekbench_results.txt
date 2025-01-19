@@ -1,0 +1,2 @@
+Single-Core Score = 1805
+Multi-Core Score = 583

@@ -1,0 +1,900 @@
+=== RUN   TestBenchmarkUserGenerateMlsGroupMessageWithoutHideTrigger
+Create Users and Chatbots:  50  users,  1  chatbots finished
+Create MLS Group:  50  members,  1  chatbots finished
+====================   Generate MLS Group Message: 50 members, 1 chatbot   ====================
+  avg 8.5ms;  min 4.23ms;  p50 4.67ms;  max 74.2ms;
+  p90 6.39ms;  p99 60.2ms;  p999 74.2ms;  p9999 74.2ms;
+     4.24ms [915] ████████████████████████████████████████
+       10ms [  0] 
+       20ms [  0] 
+       30ms [ 10] 
+       40ms [ 45] █▌
+       50ms [ 20] ▌
+       60ms [  8] 
+       70ms [  2] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  5  chatbots finished
+Create MLS Group:  50  members,  5  chatbots finished
+====================   Generate MLS Group Message: 50 members, 5 chatbots   ====================
+  avg 10.1ms;  min 5ms;  p50 5.5ms;  max 91.2ms;
+  p90 38.2ms;  p99 70.1ms;  p999 91.2ms;  p9999 91.2ms;
+        5ms [896] ████████████████████████████████████████
+       10ms [  2] 
+       20ms [  0] 
+       30ms [  6] 
+       40ms [ 67] ██▌
+       50ms [ 18] ▌
+       60ms [  1] 
+       70ms [  5] 
+       80ms [  4] 
+       90ms [  1] 
+
+Create Users and Chatbots:  50  users,  10  chatbots finished
+Create MLS Group:  50  members,  10  chatbots finished
+====================   Generate MLS Group Message: 50 members, 10 chatbots   ====================
+  avg 12.6ms;  min 6.02ms;  p50 6.73ms;  max 148ms;
+  p90 45.2ms;  p99 82.8ms;  p999 148ms;  p9999 148ms;
+     6.02ms [874] ████████████████████████████████████████
+       20ms [  8] 
+       40ms [101] ████▌
+       60ms [  6] 
+       80ms [  9] 
+      100ms [  1] 
+      120ms [  0] 
+      140ms [  1] 
+      160ms [  0] 
+      180ms [  0] 
+
+Create Users and Chatbots:  50  users,  15  chatbots finished
+Create MLS Group:  50  members,  15  chatbots finished
+====================   Generate MLS Group Message: 50 members, 15 chatbots   ====================
+  avg 13.1ms;  min 0s;  p50 8.01ms;  max 164ms;
+  p90 48.1ms;  p99 88.2ms;  p999 164ms;  p9999 164ms;
+         0s [  1] 
+         0s [  0] 
+         0s [  0] 
+         0s [  0] 
+         0s [  0] 
+         0s [999] ████████████████████████████████████████
+      500ms [  0] 
+         1s [  0] 
+       1.5s [  0] 
+         2s [  0] 
+
+Create Users and Chatbots:  50  users,  20  chatbots finished
+Create MLS Group:  50  members,  20  chatbots finished
+====================   Generate MLS Group Message: 50 members, 20 chatbots   ====================
+  avg 18.7ms;  min 8.41ms;  p50 9.4ms;  max 303ms;
+  p90 49.9ms;  p99 106ms;  p999 303ms;  p9999 303ms;
+     8.41ms [902] ████████████████████████████████████████
+       50ms [ 87] ███▌
+      100ms [  4] 
+      150ms [  1] 
+      200ms [  3] 
+      250ms [  2] 
+      300ms [  1] 
+      350ms [  0] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  25  chatbots finished
+Create MLS Group:  50  members,  25  chatbots finished
+====================   Generate MLS Group Message: 50 members, 25 chatbots   ====================
+  avg 22.6ms;  min 9.77ms;  p50 11ms;  max 398ms;
+  p90 52.4ms;  p99 130ms;  p999 398ms;  p9999 398ms;
+     9.77ms [838] ████████████████████████████████████████
+       50ms [146] ██████▌
+      100ms [  7] 
+      150ms [  1] 
+      200ms [  2] 
+      250ms [  4] 
+      300ms [  1] 
+      350ms [  1] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  30  chatbots finished
+Create MLS Group:  50  members,  30  chatbots finished
+====================   Generate MLS Group Message: 50 members, 30 chatbots   ====================
+  avg 25.6ms;  min 11.2ms;  p50 12.6ms;  max 409ms;
+  p90 53.8ms;  p99 203ms;  p999 409ms;  p9999 409ms;
+     11.2ms [806] ████████████████████████████████████████
+       50ms [178] ████████▌
+      100ms [  2] 
+      150ms [  4] 
+      200ms [  2] 
+      250ms [  2] 
+      300ms [  3] 
+      350ms [  0] 
+      400ms [  3] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  35  chatbots finished
+Create MLS Group:  50  members,  35  chatbots finished
+====================   Generate MLS Group Message: 50 members, 35 chatbots   ====================
+  avg 29.8ms;  min 12.7ms;  p50 14.3ms;  max 602ms;
+  p90 56.1ms;  p99 220ms;  p999 602ms;  p9999 602ms;
+     12.8ms [981] ████████████████████████████████████████
+      100ms [  7] 
+      200ms [  4] 
+      300ms [  2] 
+      400ms [  2] 
+      500ms [  3] 
+      600ms [  1] 
+      700ms [  0] 
+      800ms [  0] 
+      900ms [  0] 
+
+Create Users and Chatbots:  50  users,  40  chatbots finished
+Create MLS Group:  50  members,  40  chatbots finished
+====================   Generate MLS Group Message: 50 members, 40 chatbots   ====================
+  avg 33.2ms;  min 14.3ms;  p50 16.1ms;  max 703ms;
+  p90 58.6ms;  p99 274ms;  p999 703ms;  p9999 703ms;
+     14.4ms [979] ████████████████████████████████████████
+      100ms [  9] 
+      200ms [  3] 
+      300ms [  2] 
+      400ms [  1] 
+      500ms [  2] 
+      600ms [  3] 
+      700ms [  1] 
+      800ms [  0] 
+      900ms [  0] 
+
+Create Users and Chatbots:  50  users,  45  chatbots finished
+Create MLS Group:  50  members,  45  chatbots finished
+====================   Generate MLS Group Message: 50 members, 45 chatbots   ====================
+  avg 38ms;  min 16.1ms;  p50 18.5ms;  max 871ms;
+  p90 61.5ms;  p99 353ms;  p999 871ms;  p9999 871ms;
+     16.1ms [978] ████████████████████████████████████████
+      100ms [  9] 
+      200ms [  2] 
+      300ms [  3] 
+      400ms [  1] 
+      500ms [  1] 
+      600ms [  1] 
+      700ms [  3] 
+      800ms [  2] 
+      900ms [  0] 
+
+Create Users and Chatbots:  50  users,  50  chatbots finished
+Create MLS Group:  50  members,  50  chatbots finished
+====================   Generate MLS Group Message: 50 members, 50 chatbots   ====================
+  avg 43.3ms;  min 18ms;  p50 20.7ms;  max 958ms;
+  p90 63.9ms;  p99 506ms;  p999 958ms;  p9999 958ms;
+     18.1ms [977] ████████████████████████████████████████
+      100ms [  8] 
+      200ms [  0] 
+      300ms [  2] 
+      400ms [  3] 
+      500ms [  3] 
+      600ms [  2] 
+      700ms [  1] 
+      800ms [  2] 
+      900ms [  2] 
+
+--- PASS: TestBenchmarkUserGenerateMlsGroupMessageWithoutHideTrigger (393.808s)
+PASS
+ok  	chatbot-poc-go/pkg/benchmark	393.808s
+=== RUN   TestBenchmarkUserGenerateMlsIGAGroupMessageWithoutHideTrigger
+Create Users and Chatbots:  50  users,  1  chatbots finished
+Create MLS Group:  50  members,  1  chatbots finished
+====================   Generate MLS IGA Group Message: 50 members, 1 chatbot   ====================
+  avg 8.47ms;  min 4.25ms;  p50 4.67ms;  max 76ms;
+  p90 6.52ms;  p99 60.6ms;  p999 76ms;  p9999 76ms;
+     4.25ms [913] ████████████████████████████████████████
+       10ms [  2] 
+       20ms [  0] 
+       30ms [ 14] ▌
+       40ms [ 45] █▌
+       50ms [ 15] ▌
+       60ms [  7] 
+       70ms [  4] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  5  chatbots finished
+Create MLS Group:  50  members,  5  chatbots finished
+====================   Generate MLS IGA Group Message: 50 members, 5 chatbots   ====================
+  avg 10.2ms;  min 5.02ms;  p50 5.56ms;  max 92.1ms;
+  p90 37.7ms;  p99 65.4ms;  p999 92.1ms;  p9999 92.1ms;
+     5.03ms [898] ████████████████████████████████████████
+       10ms [  0] 
+       20ms [  0] 
+       30ms [  7] 
+       40ms [ 66] ██▌
+       50ms [ 17] ▌
+       60ms [  3] 
+       70ms [  4] 
+       80ms [  2] 
+       90ms [  3] 
+
+Create Users and Chatbots:  50  users,  10  chatbots finished
+Create MLS Group:  50  members,  10  chatbots finished
+====================   Generate MLS IGA Group Message: 50 members, 10 chatbots   ====================
+  avg 12.6ms;  min 6.1ms;  p50 6.71ms;  max 146ms;
+  p90 45.3ms;  p99 78.6ms;  p999 146ms;  p9999 146ms;
+     6.11ms [875] ████████████████████████████████████████
+       20ms [  5] 
+       40ms [103] ████▌
+       60ms [  9] 
+       80ms [  7] 
+      100ms [  0] 
+      120ms [  0] 
+      140ms [  1] 
+      160ms [  0] 
+      180ms [  0] 
+
+Create Users and Chatbots:  50  users,  15  chatbots finished
+Create MLS Group:  50  members,  15  chatbots finished
+====================   Generate MLS IGA Group Message: 50 members, 15 chatbots   ====================
+  avg 15.4ms;  min 7.32ms;  p50 8.09ms;  max 166ms;
+  p90 48.5ms;  p99 84.5ms;  p999 166ms;  p9999 166ms;
+     7.33ms [848] ████████████████████████████████████████
+       20ms [  5] 
+       40ms [124] █████▌
+       60ms [  9] 
+       80ms [  6] 
+      100ms [  6] 
+      120ms [  0] 
+      140ms [  1] 
+      160ms [  1] 
+      180ms [  0] 
+
+Create Users and Chatbots:  50  users,  20  chatbots finished
+Create MLS Group:  50  members,  20  chatbots finished
+====================   Generate MLS IGA Group Message: 50 members, 20 chatbots   ====================
+  avg 18.7ms;  min 8.6ms;  p50 9.55ms;  max 280ms;
+  p90 50ms;  p99 108ms;  p999 280ms;  p9999 280ms;
+     8.61ms [896] ████████████████████████████████████████
+       50ms [ 92] ████
+      100ms [  4] 
+      150ms [  6] 
+      200ms [  1] 
+      250ms [  1] 
+      300ms [  0] 
+      350ms [  0] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  25  chatbots finished
+Create MLS Group:  50  members,  25  chatbots finished
+====================   Generate MLS IGA Group Message: 50 members, 25 chatbots   ====================
+  avg 22.3ms;  min 10.1ms;  p50 11.1ms;  max 352ms;
+  p90 52.2ms;  p99 114ms;  p999 352ms;  p9999 352ms;
+     10.1ms [840] ████████████████████████████████████████
+       50ms [145] ██████▌
+      100ms [  6] 
+      150ms [  1] 
+      200ms [  4] 
+      250ms [  2] 
+      300ms [  1] 
+      350ms [  1] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  30  chatbots finished
+Create MLS Group:  50  members,  30  chatbots finished
+====================   Generate MLS IGA Group Message: 50 members, 30 chatbots   ====================
+  avg 26.5ms;  min 11.7ms;  p50 13ms;  max 502ms;
+  p90 54.4ms;  p99 211ms;  p999 502ms;  p9999 502ms;
+     11.8ms [798] ████████████████████████████████████████
+       50ms [186] █████████
+      100ms [  3] 
+      150ms [  2] 
+      200ms [  2] 
+      250ms [  1] 
+      300ms [  4] 
+      350ms [  1] 
+      400ms [  2] 
+      450ms+[  1] 
+
+Create Users and Chatbots:  50  users,  35  chatbots finished
+Create MLS Group:  50  members,  35  chatbots finished
+====================   Generate MLS IGA Group Message: 50 members, 35 chatbots   ====================
+  avg 30.9ms;  min 13.5ms;  p50 15.1ms;  max 582ms;
+  p90 57.5ms;  p99 291ms;  p999 582ms;  p9999 582ms;
+     13.5ms [979] ████████████████████████████████████████
+      100ms [ 10] 
+      200ms [  3] 
+      300ms [  1] 
+      400ms [  4] 
+      500ms [  3] 
+      600ms [  0] 
+      700ms [  0] 
+      800ms [  0] 
+      900ms [  0] 
+
+Create Users and Chatbots:  50  users,  40  chatbots finished
+Create MLS Group:  50  members,  40  chatbots finished
+====================   Generate MLS IGA Group Message: 50 members, 40 chatbots   ====================
+  avg 36.2ms;  min 15.5ms;  p50 17.4ms;  max 699ms;
+  p90 60.1ms;  p99 377ms;  p999 699ms;  p9999 699ms;
+     15.5ms [976] ████████████████████████████████████████
+      100ms [ 11] 
+      200ms [  2] 
+      300ms [  2] 
+      400ms [  2] 
+      500ms [  1] 
+      600ms [  6] 
+      700ms [  0] 
+      800ms [  0] 
+      900ms [  0] 
+
+Create Users and Chatbots:  50  users,  45  chatbots finished
+Create MLS Group:  50  members,  45  chatbots finished
+====================   Generate MLS IGA Group Message: 50 members, 45 chatbots   ====================
+  avg 42.3ms;  min 17.5ms;  p50 20.2ms;  max 906ms;
+  p90 63.4ms;  p99 598ms;  p999 906ms;  p9999 906ms;
+     17.6ms [976] ████████████████████████████████████████
+      100ms [ 11] 
+      200ms [  2] 
+      300ms [  0] 
+      400ms [  1] 
+      500ms [  1] 
+      600ms [  2] 
+      700ms [  2] 
+      800ms [  3] 
+      900ms [  2] 
+
+Create Users and Chatbots:  50  users,  50  chatbots finished
+Create MLS Group:  50  members,  50  chatbots finished
+====================   Generate MLS IGA Group Message: 50 members, 50 chatbots   ====================
+  avg 45.5ms;  min 19.8ms;  p50 22.6ms;  max 903ms;
+  p90 66.1ms;  p99 496ms;  p999 903ms;  p9999 903ms;
+     19.8ms [975] ████████████████████████████████████████
+      100ms [  9] 
+      200ms [  3] 
+      300ms [  0] 
+      400ms [  4] 
+      500ms [  4] 
+      600ms [  1] 
+      700ms [  2] 
+      800ms [  1] 
+      900ms [  1] 
+
+--- PASS: TestBenchmarkUserGenerateMlsIGAGroupMessageWithoutHideTrigger (382.92s)
+PASS
+ok  	chatbot-poc-go/pkg/benchmark	382.985s
+=== RUN   TestBenchmarkUserGenerateMlsPseudoGroupMessageWithoutHideTrigger
+Create Users and Chatbots:  50  users,  1  chatbots finished
+Create MLS Group:  50  members,  1  chatbots finished
+====================   Generate MLS Pseudo Group Message: 50 members, 1 chatbot   ====================
+  avg 8.63ms;  min 4.27ms;  p50 4.75ms;  max 71.5ms;
+  p90 6.4ms;  p99 62.1ms;  p999 71.5ms;  p9999 71.5ms;
+     4.28ms [913] ████████████████████████████████████████
+       10ms [  1] 
+       20ms [  0] 
+       30ms [  5] 
+       40ms [ 56] ██
+       50ms [ 15] ▌
+       60ms [  9] 
+       70ms [  1] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  5  chatbots finished
+Create MLS Group:  50  members,  5  chatbots finished
+====================   Generate MLS Pseudo Group Message: 50 members, 5 chatbots   ====================
+  avg 10.6ms;  min 5.17ms;  p50 5.73ms;  max 89.6ms;
+  p90 37.5ms;  p99 68.2ms;  p999 89.6ms;  p9999 89.6ms;
+     5.18ms [890] ████████████████████████████████████████
+       10ms [  4] 
+       20ms [  0] 
+       30ms [ 13] ▌
+       40ms [ 56] ██▌
+       50ms [ 23] █
+       60ms [  5] 
+       70ms [  3] 
+       80ms [  6] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  10  chatbots finished
+Create MLS Group:  50  members,  10  chatbots finished
+====================   Generate MLS Pseudo Group Message: 50 members, 10 chatbots   ====================
+  avg 13.3ms;  min 6.38ms;  p50 7.04ms;  max 114ms;
+  p90 46.6ms;  p99 79.2ms;  p999 114ms;  p9999 114ms;
+     6.38ms [867] ████████████████████████████████████████
+       20ms [  6] 
+       40ms [109] █████
+       60ms [  9] 
+       80ms [  5] 
+      100ms [  4] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  0] 
+      180ms [  0] 
+
+Create Users and Chatbots:  50  users,  15  chatbots finished
+Create MLS Group:  50  members,  15  chatbots finished
+====================   Generate MLS Pseudo Group Message: 50 members, 15 chatbots   ====================
+  avg 16.2ms;  min 7.74ms;  p50 8.52ms;  max 189ms;
+  p90 48.6ms;  p99 89.7ms;  p999 189ms;  p9999 189ms;
+     7.74ms [840] ████████████████████████████████████████
+       20ms [ 14] ▌
+       40ms [125] █████▌
+       60ms [  6] 
+       80ms [  8] 
+      100ms [  3] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  1] 
+      180ms [  3] 
+
+Create Users and Chatbots:  50  users,  20  chatbots finished
+Create MLS Group:  50  members,  20  chatbots finished
+====================   Generate MLS Pseudo Group Message: 50 members, 20 chatbots   ====================
+  avg 20.1ms;  min 9.23ms;  p50 10.1ms;  max 281ms;
+  p90 51.3ms;  p99 126ms;  p999 281ms;  p9999 281ms;
+     9.24ms [866] ████████████████████████████████████████
+       50ms [120] █████▌
+      100ms [  6] 
+      150ms [  2] 
+      200ms [  4] 
+      250ms [  2] 
+      300ms [  0] 
+      350ms [  0] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  25  chatbots finished
+Create MLS Group:  50  members,  25  chatbots finished
+====================   Generate MLS Pseudo Group Message: 50 members, 25 chatbots   ====================
+  avg 24ms;  min 10.8ms;  p50 12ms;  max 395ms;
+  p90 53.2ms;  p99 190ms;  p999 395ms;  p9999 395ms;
+     10.9ms [827] ████████████████████████████████████████
+       50ms [156] ███████▌
+      100ms [  7] 
+      150ms [  2] 
+      200ms [  1] 
+      250ms [  0] 
+      300ms [  4] 
+      350ms [  3] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  30  chatbots finished
+Create MLS Group:  50  members,  30  chatbots finished
+====================   Generate MLS Pseudo Group Message: 50 members, 30 chatbots   ====================
+  avg 28.3ms;  min 12.6ms;  p50 14ms;  max 507ms;
+  p90 56.1ms;  p99 201ms;  p999 507ms;  p9999 507ms;
+     12.6ms [773] ████████████████████████████████████████
+       50ms [208] ██████████▌
+      100ms [  6] 
+      150ms [  3] 
+      200ms [  2] 
+      250ms [  1] 
+      300ms [  1] 
+      350ms [  2] 
+      400ms [  1] 
+      450ms+[  3] 
+
+Create Users and Chatbots:  50  users,  35  chatbots finished
+Create MLS Group:  50  members,  35  chatbots finished
+====================   Generate MLS Pseudo Group Message: 50 members, 35 chatbots   ====================
+  avg 34.3ms;  min 14.5ms;  p50 16.5ms;  max 714ms;
+  p90 59.3ms;  p99 311ms;  p999 714ms;  p9999 714ms;
+     14.6ms [976] ████████████████████████████████████████
+      100ms [  9] 
+      200ms [  2] 
+      300ms [  4] 
+      400ms [  5] 
+      500ms [  2] 
+      600ms [  1] 
+      700ms [  1] 
+      800ms [  0] 
+      900ms [  0] 
+
+Create Users and Chatbots:  50  users,  40  chatbots finished
+Create MLS Group:  50  members,  40  chatbots finished
+====================   Generate MLS Pseudo Group Message: 50 members, 40 chatbots   ====================
+  avg 38.2ms;  min 16.6ms;  p50 18.9ms;  max 710ms;
+  p90 62ms;  p99 395ms;  p999 710ms;  p9999 710ms;
+     16.6ms [978] ████████████████████████████████████████
+      100ms [ 10] 
+      200ms [  2] 
+      300ms [  1] 
+      400ms [  2] 
+      500ms [  2] 
+      600ms [  3] 
+      700ms [  2] 
+      800ms [  0] 
+      900ms [  0] 
+
+Create Users and Chatbots:  50  users,  45  chatbots finished
+Create MLS Group:  50  members,  45  chatbots finished
+====================   Generate MLS Pseudo Group Message: 50 members, 45 chatbots   ====================
+  avg 46.9ms;  min 19ms;  p50 22.1ms;  max 871ms;
+  p90 66.9ms;  p99 696ms;  p999 871ms;  p9999 871ms;
+     19.1ms [970] ████████████████████████████████████████
+      100ms [ 11] 
+      200ms [  5] 
+      300ms [  2] 
+      400ms [  0] 
+      500ms [  2] 
+      600ms [  1] 
+      700ms [  3] 
+      800ms [  6] 
+      900ms [  0] 
+
+Create Users and Chatbots:  50  users,  50  chatbots finished
+Create MLS Group:  50  members,  50  chatbots finished
+====================   Generate MLS Pseudo Group Message: 50 members, 50 chatbots   ====================
+  avg 50.9ms;  min 21.4ms;  p50 25.2ms;  max 1s;
+  p90 69.3ms;  p99 596ms;  p999 1s;  p9999 1s;
+     21.4ms [976] ████████████████████████████████████████
+      100ms [  7] 
+      200ms [  2] 
+      300ms [  3] 
+      400ms [  1] 
+      500ms [  2] 
+      600ms [  0] 
+      700ms [  3] 
+      800ms [  2] 
+      900ms+[  4] 
+
+--- PASS: TestBenchmarkUserGenerateMlsPseudoGroupMessageWithoutHideTrigger (622.42s)
+PASS
+ok  	chatbot-poc-go/pkg/benchmark	622.482s
+=== RUN   TestBenchmarkUserGenerateMlsIGAGroupMessageWithHideTrigger
+Create Users and Chatbots:  50  users,  1  chatbots finished
+Create MLS Group:  50  members,  1  chatbots finished
+====================   Generate MLS IGA Group Message with Hide Trigger: 50 members, 1 chatbot   ====================
+  avg 8.42ms;  min 4.24ms;  p50 4.7ms;  max 72.1ms;
+  p90 5.99ms;  p99 59.3ms;  p999 72.1ms;  p9999 72.1ms;
+     4.24ms [915] ████████████████████████████████████████
+       10ms [  1] 
+       20ms [  0] 
+       30ms [  8] 
+       40ms [ 50] ██
+       50ms [ 17] ▌
+       60ms [  8] 
+       70ms [  1] 
+       80ms [  0] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  5  chatbots finished
+Create MLS Group:  50  members,  5  chatbots finished
+====================   Generate MLS IGA Group Message with Hide Trigger: 50 members, 5 chatbots   ====================
+  avg 10.2ms;  min 5.02ms;  p50 5.56ms;  max 96.2ms;
+  p90 37.4ms;  p99 62.6ms;  p999 96.2ms;  p9999 96.2ms;
+     5.02ms [897] ████████████████████████████████████████
+       10ms [  1] 
+       20ms [  0] 
+       30ms [ 12] ▌
+       40ms [ 55] ██
+       50ms [ 25] █
+       60ms [  1] 
+       70ms [  2] 
+       80ms [  5] 
+       90ms [  2] 
+
+Create Users and Chatbots:  50  users,  10  chatbots finished
+Create MLS Group:  50  members,  10  chatbots finished
+====================   Generate MLS IGA Group Message with Hide Trigger: 50 members, 10 chatbots   ====================
+  avg 12.6ms;  min 6.12ms;  p50 6.72ms;  max 155ms;
+  p90 44.9ms;  p99 77.7ms;  p999 155ms;  p9999 155ms;
+     6.12ms [874] ████████████████████████████████████████
+       20ms [  6] 
+       40ms [104] ████▌
+       60ms [  7] 
+       80ms [  5] 
+      100ms [  3] 
+      120ms [  0] 
+      140ms [  1] 
+      160ms [  0] 
+      180ms [  0] 
+
+Create Users and Chatbots:  50  users,  15  chatbots finished
+Create MLS Group:  50  members,  15  chatbots finished
+====================   Generate MLS IGA Group Message with Hide Trigger: 50 members, 15 chatbots   ====================
+  avg 15.5ms;  min 7.3ms;  p50 8.08ms;  max 197ms;
+  p90 47.7ms;  p99 94.4ms;  p999 197ms;  p9999 197ms;
+      7.3ms [847] ████████████████████████████████████████
+       20ms [  7] 
+       40ms [125] █████▌
+       60ms [  7] 
+       80ms [  6] 
+      100ms [  5] 
+      120ms [  0] 
+      140ms [  2] 
+      160ms [  0] 
+      180ms [  1] 
+
+Create Users and Chatbots:  50  users,  20  chatbots finished
+Create MLS Group:  50  members,  20  chatbots finished
+====================   Generate MLS IGA Group Message with Hide Trigger: 50 members, 20 chatbots   ====================
+  avg 18.7ms;  min 8.62ms;  p50 9.58ms;  max 298ms;
+  p90 50.1ms;  p99 103ms;  p999 298ms;  p9999 298ms;
+     8.62ms [894] ████████████████████████████████████████
+       50ms [ 93] ████
+      100ms [  5] 
+      150ms [  4] 
+      200ms [  2] 
+      250ms [  2] 
+      300ms [  0] 
+      350ms [  0] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  25  chatbots finished
+Create MLS Group:  50  members,  25  chatbots finished
+====================   Generate MLS IGA Group Message with Hide Trigger: 50 members, 25 chatbots   ====================
+  avg 22.5ms;  min 10.1ms;  p50 11.2ms;  max 352ms;
+  p90 52.2ms;  p99 189ms;  p999 352ms;  p9999 352ms;
+     10.1ms [838] ████████████████████████████████████████
+       50ms [144] ██████▌
+      100ms [  6] 
+      150ms [  4] 
+      200ms [  2] 
+      250ms [  4] 
+      300ms [  1] 
+      350ms [  1] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  30  chatbots finished
+Create MLS Group:  50  members,  30  chatbots finished
+====================   Generate MLS IGA Group Message with Hide Trigger: 50 members, 30 chatbots   ====================
+  avg 26.4ms;  min 11.7ms;  p50 13.1ms;  max 464ms;
+  p90 54.6ms;  p99 155ms;  p999 464ms;  p9999 464ms;
+     11.7ms [805] ████████████████████████████████████████
+       50ms [177] ████████▌
+      100ms [  8] 
+      150ms [  1] 
+      200ms [  1] 
+      250ms [  0] 
+      300ms [  1] 
+      350ms [  2] 
+      400ms [  3] 
+      450ms [  2] 
+
+Create Users and Chatbots:  50  users,  35  chatbots finished
+Create MLS Group:  50  members,  35  chatbots finished
+====================   Generate MLS IGA Group Message with Hide Trigger: 50 members, 35 chatbots   ====================
+  avg 30.7ms;  min 13.5ms;  p50 15.2ms;  max 598ms;
+  p90 57.4ms;  p99 299ms;  p999 598ms;  p9999 598ms;
+     13.5ms [983] ████████████████████████████████████████
+      100ms [  5] 
+      200ms [  3] 
+      300ms [  2] 
+      400ms [  5] 
+      500ms [  2] 
+      600ms [  0] 
+      700ms [  0] 
+      800ms [  0] 
+      900ms [  0] 
+
+Create Users and Chatbots:  50  users,  40  chatbots finished
+Create MLS Group:  50  members,  40  chatbots finished
+====================   Generate MLS IGA Group Message with Hide Trigger: 50 members, 40 chatbots   ====================
+  avg 37ms;  min 15.4ms;  p50 17.6ms;  max 902ms;
+  p90 61ms;  p99 401ms;  p999 902ms;  p9999 902ms;
+     15.4ms [976] ████████████████████████████████████████
+      100ms [  9] 
+      200ms [  1] 
+      300ms [  4] 
+      400ms [  4] 
+      500ms [  4] 
+      600ms [  0] 
+      700ms [  0] 
+      800ms [  1] 
+      900ms [  1] 
+
+Create Users and Chatbots:  50  users,  45  chatbots finished
+Create MLS Group:  50  members,  45  chatbots finished
+====================   Generate MLS IGA Group Message with Hide Trigger: 50 members, 45 chatbots   ====================
+  avg 42ms;  min 17.5ms;  p50 20ms;  max 903ms;
+  p90 63.4ms;  p99 521ms;  p999 903ms;  p9999 903ms;
+     17.6ms [972] ████████████████████████████████████████
+      100ms [ 14] ▌
+      200ms [  3] 
+      300ms [  0] 
+      400ms [  1] 
+      500ms [  3] 
+      600ms [  2] 
+      700ms [  3] 
+      800ms [  1] 
+      900ms [  1] 
+
+Create Users and Chatbots:  50  users,  50  chatbots finished
+Create MLS Group:  50  members,  50  chatbots finished
+====================   Generate MLS IGA Group Message with Hide Trigger: 50 members, 50 chatbots   ====================
+  avg 47.3ms;  min 19.7ms;  p50 22.6ms;  max 984ms;
+  p90 66.5ms;  p99 523ms;  p999 984ms;  p9999 984ms;
+     19.8ms [971] ████████████████████████████████████████
+      100ms [ 10] 
+      200ms [  5] 
+      300ms [  4] 
+      400ms [  0] 
+      500ms [  2] 
+      600ms [  1] 
+      700ms [  2] 
+      800ms [  1] 
+      900ms [  4] 
+
+--- PASS: TestBenchmarkUserGenerateMlsIGAGroupMessageWithHideTrigger (384.99s)
+PASS
+ok  	chatbot-poc-go/pkg/benchmark	385.013s
+=== RUN   TestBenchmarkUserGenerateMlsPseudoGroupMessageWithHideTrigger
+Create Users and Chatbots:  50  users,  1  chatbots finished
+Create MLS Group:  50  members,  1  chatbots finished
+====================   Generate MLS Pseudo Group Message with Hide Trigger: 50 members, 1 chatbot   ====================
+  avg 8.64ms;  min 4.27ms;  p50 4.72ms;  max 102ms;
+  p90 6.91ms;  p99 59.2ms;  p999 102ms;  p9999 102ms;
+     4.28ms [913] ████████████████████████████████████████
+       10ms [  1] 
+       20ms [  0] 
+       30ms [  8] 
+       40ms [ 48] ██
+       50ms [ 21] ▌
+       60ms [  7] 
+       70ms [  1] 
+       80ms [  0] 
+       90ms+[  1] 
+
+Create Users and Chatbots:  50  users,  5  chatbots finished
+Create MLS Group:  50  members,  5  chatbots finished
+====================   Generate MLS Pseudo Group Message with Hide Trigger: 50 members, 5 chatbots   ====================
+  avg 10.4ms;  min 5.16ms;  p50 5.71ms;  max 83.4ms;
+  p90 38.6ms;  p99 66.3ms;  p999 83.4ms;  p9999 83.4ms;
+     5.17ms [893] ████████████████████████████████████████
+       10ms [  3] 
+       20ms [  0] 
+       30ms [  8] 
+       40ms [ 59] ██▌
+       50ms [ 23] █
+       60ms [  8] 
+       70ms [  3] 
+       80ms [  3] 
+       90ms [  0] 
+
+Create Users and Chatbots:  50  users,  10  chatbots finished
+Create MLS Group:  50  members,  10  chatbots finished
+====================   Generate MLS Pseudo Group Message with Hide Trigger: 50 members, 10 chatbots   ====================
+  avg 13.2ms;  min 6.4ms;  p50 7.04ms;  max 106ms;
+  p90 45.4ms;  p99 83.9ms;  p999 106ms;  p9999 106ms;
+      6.4ms [868] ████████████████████████████████████████
+       20ms [  3] 
+       40ms [109] █████
+       60ms [ 10] 
+       80ms [  8] 
+      100ms [  2] 
+      120ms [  0] 
+      140ms [  0] 
+      160ms [  0] 
+      180ms [  0] 
+
+Create Users and Chatbots:  50  users,  15  chatbots finished
+Create MLS Group:  50  members,  15  chatbots finished
+====================   Generate MLS Pseudo Group Message with Hide Trigger: 50 members, 15 chatbots   ====================
+  avg 16.4ms;  min 7.75ms;  p50 8.53ms;  max 196ms;
+  p90 48.2ms;  p99 106ms;  p999 196ms;  p9999 196ms;
+     7.75ms [841] ████████████████████████████████████████
+       20ms [  0] 
+       40ms [140] ██████▌
+       60ms [  3] 
+       80ms [  4] 
+      100ms [  7] 
+      120ms [  0] 
+      140ms [  1] 
+      160ms [  1] 
+      180ms [  3] 
+
+Create Users and Chatbots:  50  users,  20  chatbots finished
+Create MLS Group:  50  members,  20  chatbots finished
+====================   Generate MLS Pseudo Group Message with Hide Trigger: 50 members, 20 chatbots   ====================
+  avg 20.7ms;  min 9.22ms;  p50 10.2ms;  max 284ms;
+  p90 51.2ms;  p99 196ms;  p999 284ms;  p9999 284ms;
+     9.23ms [873] ████████████████████████████████████████
+       50ms [111] █████
+      100ms [  5] 
+      150ms [  2] 
+      200ms [  6] 
+      250ms [  3] 
+      300ms [  0] 
+      350ms [  0] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  25  chatbots finished
+Create MLS Group:  50  members,  25  chatbots finished
+====================   Generate MLS Pseudo Group Message with Hide Trigger: 50 members, 25 chatbots   ====================
+  avg 24ms;  min 10.8ms;  p50 12ms;  max 314ms;
+  p90 53.3ms;  p99 198ms;  p999 314ms;  p9999 314ms;
+     10.9ms [845] ████████████████████████████████████████
+       50ms [138] ██████▌
+      100ms [  4] 
+      150ms [  4] 
+      200ms [  1] 
+      250ms [  3] 
+      300ms [  5] 
+      350ms [  0] 
+      400ms [  0] 
+      450ms [  0] 
+
+Create Users and Chatbots:  50  users,  30  chatbots finished
+Create MLS Group:  50  members,  30  chatbots finished
+====================   Generate MLS Pseudo Group Message with Hide Trigger: 50 members, 30 chatbots   ====================
+  avg 28.3ms;  min 12.5ms;  p50 14ms;  max 502ms;
+  p90 55.9ms;  p99 216ms;  p999 502ms;  p9999 502ms;
+     12.6ms [775] ████████████████████████████████████████
+       50ms [206] ██████████▌
+      100ms [  6] 
+      150ms [  1] 
+      200ms [  3] 
+      250ms [  2] 
+      300ms [  2] 
+      350ms [  2] 
+      400ms [  2] 
+      450ms+[  1] 
+
+Create Users and Chatbots:  50  users,  35  chatbots finished
+Create MLS Group:  50  members,  35  chatbots finished
+====================   Generate MLS Pseudo Group Message with Hide Trigger: 50 members, 35 chatbots   ====================
+  avg 33.8ms;  min 14.7ms;  p50 16.5ms;  max 689ms;
+  p90 59.6ms;  p99 260ms;  p999 689ms;  p9999 689ms;
+     14.8ms [981] ████████████████████████████████████████
+      100ms [  8] 
+      200ms [  2] 
+      300ms [  1] 
+      400ms [  1] 
+      500ms [  2] 
+      600ms [  5] 
+      700ms [  0] 
+      800ms [  0] 
+      900ms [  0] 
+
+Create Users and Chatbots:  50  users,  40  chatbots finished
+Create MLS Group:  50  members,  40  chatbots finished
+====================   Generate MLS Pseudo Group Message with Hide Trigger: 50 members, 40 chatbots   ====================
+  avg 39.9ms;  min 16.9ms;  p50 19.2ms;  max 817ms;
+  p90 61.5ms;  p99 404ms;  p999 817ms;  p9999 817ms;
+     16.9ms [977] ████████████████████████████████████████
+      100ms [ 11] 
+      200ms [  2] 
+      300ms [  0] 
+      400ms [  1] 
+      500ms [  0] 
+      600ms [  3] 
+      700ms [  5] 
+      800ms [  1] 
+      900ms [  0] 
+
+Create Users and Chatbots:  50  users,  45  chatbots finished
+Create MLS Group:  50  members,  45  chatbots finished
+====================   Generate MLS Pseudo Group Message with Hide Trigger: 50 members, 45 chatbots   ====================
+  avg 46ms;  min 19ms;  p50 22ms;  max 999ms;
+  p90 66.2ms;  p99 514ms;  p999 999ms;  p9999 999ms;
+       19ms [974] ████████████████████████████████████████
+      100ms [ 10] 
+      200ms [  2] 
+      300ms [  3] 
+      400ms [  1] 
+      500ms [  1] 
+      600ms [  2] 
+      700ms [  2] 
+      800ms [  2] 
+      900ms [  3] 
+
+Create Users and Chatbots:  50  users,  50  chatbots finished
+Create MLS Group:  50  members,  50  chatbots finished
+====================   Generate MLS Pseudo Group Message with Hide Trigger: 50 members, 50 chatbots   ====================
+  avg 51.3ms;  min 21.3ms;  p50 24.9ms;  max 1.5s;
+  p90 68.2ms;  p99 452ms;  p999 1.5s;  p9999 1.5s;
+     21.3ms [983] ████████████████████████████████████████
+      200ms [  5] 
+      400ms [  4] 
+      600ms [  1] 
+      800ms [  4] 
+         1s [  1] 
+       1.2s [  1] 
+       1.4s [  1] 
+       1.6s [  0] 
+       1.8s [  0] 
+
+--- PASS: TestBenchmarkUserGenerateMlsPseudoGroupMessageWithHideTrigger (625.50s)
+PASS
+ok  	chatbot-poc-go/pkg/benchmark	625.527s
