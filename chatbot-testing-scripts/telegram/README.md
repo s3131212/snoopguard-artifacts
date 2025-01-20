@@ -29,6 +29,20 @@ To replicate our analysis, ensure the following software dependencies are met:
 3. **Wireshark**  
    Install Wireshark from [Wireshark · Download](https://www.wireshark.org/download.html).  
 
+### Register Chatbot
+
+1. **Create Chatbots via BotFather**  
+   Use Telegram's BotFather to create two new chatbots:  
+   - One chatbot with **Privacy Mode** enabled.  
+   - One chatbot with **Privacy Mode** disabled.  
+   For detailed instructions on interacting with BotFather, refer to the official documentation: [Telegram Bot Features](https://core.telegram.org/bots/features#botfather).  
+
+2. **Configure Bot Tokens**  
+   Obtain the access tokens provided by BotFather for both chatbots. Populate the `privacyOnBotToken` and `privacyOffBotToken` variables in the `index.js` file with the respective tokens.  
+
+3. **Set Up a Telegram Group**  
+   Create a Telegram group that includes human participants and both chatbots. This group will serve as the experimental environment for observing chatbot interactions under different privacy configurations.  
+
 ### Launch Chatbot  
 
 Follow these steps to execute the chatbot and capture network traffic:  
