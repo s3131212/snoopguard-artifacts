@@ -36,17 +36,39 @@ go test ./pkg/chatbot -v -timeout 0
 
 ## Running Benchmarks
 
+### Individual Benchmark
+Evaluates key generation and message encryption for a single user.
+
+```
+sh benchmark.sh
+```
+
+Results are saved in the `./benchmark_results/native/` directory. The following files will be generated:
+- `benchmark_add.txt`: Chatbot addition for both MLS and Sender Keys Protocol (marked as "server-side").
+- `benchmark_MLS.txt`: MLS messaging.
+- `benchmark_serverside.txt`: Sender Keys Protocol messaging.
+
 ### Roundtrip Benchmark
-Measures end-to-end completion time for adding processes or message sending for all users. Experiment details and results are presented in Section 6.2.2 of the paper.
+Measures the end-to-end completion time for user addition processes or message sending across all users. Detailed experiment methodology and results can be found in Section 6.2.2 of the paper.
+
 ```
 sh benchmark_roundtrip.sh
 ```
 
+Results are saved in the `./benchmark_results/native_roundtrip/` directory.
+
 ### Resource-Constrained Benchmark
-Evaluates protocol performance in Docker containers with limited CPU allocations, measuring key generation and encryption for an individual user. Experiment details and results are presented in Appendix D of the paper.
+Measures key generation and message encryption for a single user in a resource-constrained environment (Docker containers with limited CPU resources). For detailed experiment methodology and results, refer to Appendix D of the paper. Note: This script may take several days to complete.
+
+Build the necessary Docker images:
 ```
 docker build -t go-app .
 docker build -t geekbench ./geekbench
-sh benchmark.sh
 ```
 
+Execute the benchmark script:
+```
+sh benchmark_resource_constrained.sh # modify this script to adjust resource limitations and toggle the execution of Geekbench.
+```
+
+Results are saved in the `./benchmark_results/cpu_*` directory.
