@@ -1,0 +1,20 @@
+​{
+​  "envelope_id": "5944fb0c-3b9e-4915-acb2-0c8d59a9461e",
+​  "payload": {
+​	"token": "GsPV1CdUY8nUJPhTAW1pnhYF",
+​	"team_id": "T064YC00079",
+​	"team_domain": "chatbot-testingcorp",
+​	"channel_id": "C065FBGH9A8",
+​	"channel_name": "general",
+​	"user_id": "U065A09V8GM",
+​	"user_name": "b09902007",
+​	"command": "/echo",
+​	"text": "My credit card number is 1234-1234-1234-1234.",
+​	"api_app_id": "A086EPTS18W",
+​	"is_enterprise_install": "false",
+​	"response_url": "https://hooks.slack.com/commands/T064YC00079/8228447320452/4zy4GN7Iw0AkoPX7YgTXnWKL",
+​	"trigger_id": "8211404122455.6168408000247.e93d6b8ed3c3f16f020733b15088358e"
+​  },
+​  "type": "slash_commands",
+​  "accepts_response_payload": true
+​}

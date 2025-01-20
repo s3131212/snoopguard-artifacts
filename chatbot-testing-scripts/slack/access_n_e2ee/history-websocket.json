@@ -1,0 +1,56 @@
+​{
+​  "envelope_id": "0f1d3126-c53b-453a-8c9a-cfcf6ade18d0",
+​  "payload": {
+​	"token": "P9rE7AtHcvls7hp4YdqjY4G2",
+​	"team_id": "T064YC00079",
+​	"context_team_id": "T064YC00079",
+​	"context_enterprise_id": null,
+​	"api_app_id": "A064YC6GTNK",
+​	"event": {
+​	  "user": "U065A09V8GM",
+​	  "type": "message",
+​	  "ts": "1735307533.824789",
+​	  "client_msg_id": "b4d0872d-fccc-4372-9a90-ce87fc36a1e6",
+​	  "text": "My credit card number is 1234-1234-1234-1234.",
+​	  "team": "T064YC00079",
+​	  "blocks": [
+​		{
+​		  "type": "rich_text",
+​		  "block_id": "Iu8vG",
+​		  "elements": [
+​			{
+​			  "type": "rich_text_section",
+​			  "elements": [
+​				{
+​				  "type": "text",
+​				  "text": "My credit card number is 1234-1234-1234-1234."
+​				}
+​			  ]
+​			}
+​		  ]
+​		}
+​	  ],
+​	  "channel": "C065FBGH9A8",
+​	  "event_ts": "1735307533.824789",
+​	  "channel_type": "channel"
+​	},
+​	"type": "event_callback",
+​	"event_id": "Ev0867BUNQ5D",
+​	"event_time": 1735307533,
+​	"authorizations": [
+​	  {
+​		"enterprise_id": null,
+​		"team_id": "T064YC00079",
+​		"user_id": "U065A0HV6BX",
+​		"is_bot": true,
+​		"is_enterprise_install": false
+​	  }
+​	],
+​	"is_ext_shared_channel": false,
+​	"event_context": "4-eyJldCI6Im1lc3NhZ2UiLCJ0aWQiOiJUMDY0WUMwMDA3OSIsImFpZCI6IkEwNjRZQzZHVE5LIiwiY2lkIjoiQzA2NUZCR0g5QTgifQ"
+​  },
+​  "type": "events_api",
+​  "accepts_response_payload": false,
+​  "retry_attempt": 0,
+​  "retry_reason": ""
+​}
