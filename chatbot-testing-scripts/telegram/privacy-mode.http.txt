@@ -1,0 +1,20 @@
+POST /bot{REDACTED-privacyOnBotToken}/getUpdates HTTP/1.1
+host: api.telegram.org
+content-type: application/x-www-form-urlencoded
+content-length: 19
+Connection: keep-alive
+
+offset=0&timeout=10
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Tue, 24 Dec 2024 08:43:09 GMT
+Content-Type: application/json
+Content-Length: 433
+Connection: keep-alive
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+
+{"ok":true,"result":[{"update_id":969885908,
+"message":{"message_id":118,"from":{"id":556169186,"is_bot":false,"first_name":"Ian","last_name":"Frogy","username":"ian0830","language_code":"en"},"chat":{"id":-1002239975373,"title":"Some self-hosted bots","type":"supergroup"},"date":1735029789,"text":"/note@nslab_privacy_bot My credit card number is 1234-1234-1234-1234.","entities":[{"offset":0,"length":23,"type":"bot_command"}]}}]}
