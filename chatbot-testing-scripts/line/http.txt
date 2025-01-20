@@ -1,0 +1,12 @@
+POST / HTTP/1.1
+Host: 4d02-140-112-41-18.ngrok-free.app
+User-Agent: LineBotWebhook/2.0
+Content-Length: 648
+Content-Type: application/json; charset=utf-8
+X-Forwarded-For: 147.92.149.167
+X-Forwarded-Host: 4d02-140-112-41-18.ngrok-free.app
+X-Forwarded-Proto: https
+X-Line-Signature: bfJwz7NU0sf8WPVFnZqHZRrpfCk4KGSp8ZW4jV0jM2c=
+Accept-Encoding: gzip
+
+{"destination":"U0693201f1ecf90d1e274e0a15efa7a34","events":[{"type":"message","message":{"type":"text","id":"540840591542976963","quoteToken":"08ISkJS4vJbayPvDquKjzKKf8jSyoaK4EBX7N-rLz7YjIyxDUSUWiwYkj47zFiSj73wdaqNMtQVRQ4voprFSp2h9BuKuUZ5xJ2dXldQH2C1nEZ3nMAQiCu3G0ijccFSXFHfgCqQ9ODCfV4DgJPr3RA","text":"My credit card number is 1234-1234-1234-1234."},"webhookEventId":"01JG0X6RJ049THVZWHAAAZJT1K","deliveryContext":{"isRedelivery":false},"timestamp":1735197417540,"source":{"type":"group","groupId":"Cc08905f12d57c585cc8ddaf230ca18a1","userId":"U9d6348b5f6c5944eff3ef87fa9f1e158"},"replyToken":"663907ca31eb4c1485001f7857e73c62","mode":"active"}]}
