@@ -1,0 +1,38 @@
+{
+    "id": 17,
+    "conversationId": "000076aab6af3d17e500aaaa930896319cc3b14b456526fc6d6718adefe545ca",
+    "channel": {
+        "name": "nslab_test_bot",
+        "membersType": "team",
+        "topicType": "chat"
+    },
+    "sender": {
+        "uid": "f77934cbbcc90229f5a9d5b22ce83819",
+        "username": "yian0830",
+        "deviceId": "b7202c58e1b693a3cdd9cbf3ee093e18",
+        "deviceName": "Kubuntu"
+    },
+    "sentAt": 1735317567,
+    "sentAtMs": 1735317567615,
+    "content": {
+        "type": "text",
+        "text": {
+            "body": "@nslab_sec4test My credit card number is 1234-1234-1234-1234.",
+            "payments": null,
+            "userMentions": [
+                null
+            ],
+            "teamMentions": null,
+            "emojis": null
+        }
+    },
+    "prev": null,
+    "unread": false,
+    "reactions": {
+        "reactions": {}
+    },
+    "atMentionUsernames": [
+        "nslab_sec4test"
+    ],
+    "channelMention": "none"
+}
