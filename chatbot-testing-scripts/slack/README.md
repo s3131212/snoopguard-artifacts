@@ -83,7 +83,7 @@ Follow these steps to execute the chatbot and capture network traffic:
    (websocket)
    ```  
 
-### For `email/` Scripts: Registering Chatbots  
+### For `email/` scripts: Registering Chatbots  
 
 Follow these steps for each bot:  
 
@@ -97,7 +97,7 @@ Follow these steps for each bot:
    - Navigate to **Features** > **OAuth & Permissions** > **OAuth Tokens** and select **Install to {Workspace}**.
    - Copy the Bot User OAuth Token generated in previous step and fill in the respective script.
 
-### For `email/` Scripts: Fetching User Emails  
+### For `email/` scripts: Fetching User Emails  
 
 1. Populate the `userId` variables in the `with-email.js` and `without-email.js` files with the desired user IDs.  
 
