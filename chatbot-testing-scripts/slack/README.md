@@ -2,10 +2,9 @@
 
 This repository contains the scripts referenced in Section 4.2, "Platforms with Chatbot Support", of our research. The scripts are designed to construct basic chatbots with varying permission configurations. Additionally, the WebSocket messages generated during the execution of these scripts have been collected and are included.
 
-For E2EE and hide sender properties, the `access_n_e2ee` folder includes three scripts. These scripts are tailored for bots with the following permissions: `app_mentions:read` scope, `channels:history` scope, and Slash Command functionality. Each script is accompanied by the corresponding WebSocket message intercepted during communication with the Slack server. The data was collected using Wireshark and provides evidence of the following observation in Section 4.2:
+For the E2EE property, the `access_n_e2ee` folder includes three scripts. These scripts are tailored for bots with the following permissions: `app_mentions:read` scope, `channels:history` scope, and Slash Command functionality. Each script is accompanied by the corresponding WebSocket message intercepted during communication with the Slack server. The data was collected using Wireshark and provides evidence of the following observation in Section 4.2:
 
 - **Group E2EE with chatbots**: Messages are transmitted securely via TLS; however, the content remains unencrypted beyond transport-level protection.
-
 
 For experiments involving email retrieval based on user IDs within a group, the `email` folder contains two scripts. These are configured for bots with and without the `users:read` and `users:read.email` scopes, enabling comparative analysis of email access permission. The data provides evidence of the following observation in Section 4.2:
 
