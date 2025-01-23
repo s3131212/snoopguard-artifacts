@@ -11,7 +11,7 @@ The steps below outline how to replicate the data export:
 
 1. Download the [dataset](https://zenodo.org/records/3607497) and extract it into the `import_data/` directory.
 2. Set up a PostgreSQL database using the schema provided in `import_data/schema.sql`.
-3. Use the `import_data/import*.py` scripts to import the dataset into the PostgreSQL database.
+3. Use the `import_data/import*.py` scripts to import the dataset into the PostgreSQL database. The `import_message_threading.py` script should be executed last due to dependency.
 4. Execute `analysis/dump_data_to_pickle.py` to generate pickle files for further analysis.
 
 ### Analyze Data
