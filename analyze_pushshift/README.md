@@ -5,7 +5,7 @@ This repository contains the data processing and analysis scripts for Section 3.
 ## Usage
 
 ### Data Processing
-For reproducibility, the data has been exported to pickle files stored in `import_data/*.pickle`, and error logs are maintained in `import_data/errors.log`, so there is no need to re-process the data.
+For reproducibility, the data has been exported to pickle files stored in `analysis/*.pickle`, and error logs are maintained in `import_data/errors.log`, so there is no need to re-process the data.
 
 The steps below outline how to replicate the data export:
 
