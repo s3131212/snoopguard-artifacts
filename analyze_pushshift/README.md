@@ -5,7 +5,7 @@ This repository contains the data processing and analysis scripts for Section 3.
 ## Usage
 
 ### Data Processing
-For reproducibility, data is exported to pickle files stored in `import_data/*.pickle`, and error logs are maintained in `import_data/errors.log`.
+For reproducibility, the data has been exported to pickle files stored in `import_data/*.pickle`, and error logs are maintained in `import_data/errors.log`, so there is no need to re-process the data.
 
 The steps below outline how to replicate the data export:
 
@@ -15,5 +15,6 @@ The steps below outline how to replicate the data export:
 4. Execute `analysis/dump_data_to_pickle.py` to generate pickle files for further analysis.
 
 ### Analyze Data
-1. Run `analysis/chatbot_analysis.py` to evaluate the *Prevalence of Cross-Group Chatbots*.
+To analyze the data and get the results presented in the paper:
+1. Run `analysis/chatbot_analysis.py` to analyze *Prevalence of Cross-Group Chatbots*.
 2. Run `analysis/bot_user_encounter_ana.py` to analyze *User-Chatbot Encounters*.
